@@ -29,7 +29,7 @@ const Navbar = () => {
        <div className="flex lg:flex-row justify-center items-center flex-col">
        <span className="text-white font-black text-2xl uppercase lg:pb-0 pb-10">Clark</span>
        {click && 
-        <div>
+        <div className="bg-orange">
         <ul className="lg:hidden text-white space-y-6 text-base">
         {data}
         </ul>

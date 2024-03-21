@@ -8,12 +8,13 @@ module.exports = {
         'md': '768px',
         'lg': '991px',
         'xl': '1200px',
+        '2xl': '1500px',
       },
       colors:{
         white,
         orange,
         gray,
-        transparent
+        transparent,
       }
     
     
