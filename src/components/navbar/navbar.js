@@ -33,7 +33,7 @@ const Navbar = () => {
        }
        </div>
        <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center ">
-       <ul className="flex xl:space-x-10 space-x-8  text-white font-normal text-xl not-italic"> 
+       <ul className="flex xl:space-x-10 space-x-8  text-white font-normal text-base not-italic"> 
        {data}
        </ul>
        </div>
