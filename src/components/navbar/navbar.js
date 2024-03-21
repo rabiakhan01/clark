@@ -21,23 +21,23 @@ const Navbar = () => {
             
         }
     return(
-       <nav className="sticky flex justify-between lg:items-center my-0 lg:py-6 py-4 gap-2">
+       <nav className="sticky flex justify-between lg:items-center my-0 py-4 gap-2 ">
        <div className="flex lg:flex-row justify-center items-center flex-col">
        <span className="text-white font-black text-2xl uppercase lg:pb-0 pb-10">Clark</span>
        {click && 
         <div>
-        <ul className="lg:hidden text-white space-y-6 text-xl">
+        <ul className="lg:hidden text-white space-y-6 text-base">
         {data}
         </ul>
         </div>
        }
        </div>
-       <div className="hidden lg:flex lg:flex-1 lg:flex-row lg:justify-end lg:items-center ">
-       <ul className="flex space-x-10 text-white font-normal text-xl not-italic"> 
+       <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center ">
+       <ul className="flex xl:space-x-10 space-x-8  text-white font-normal text-xl not-italic"> 
        {data}
        </ul>
        </div>
-       <div className="lg:hidden w-24 flex" onClick={handelClick}>
+       <div className="lg:hidden flex" onClick={handelClick}>
        <Bars color={white}/><span className="text-white pl-2 flex">Menu</span>
        
        </div>
