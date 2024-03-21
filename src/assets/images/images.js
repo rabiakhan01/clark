@@ -1,5 +1,5 @@
 const images = {
-    // hero section
-    background_1: require('./bg_2.png'),
+    // about section
+    image_about: require('./bg_1.png'),
 }
 export default images;
