@@ -3,7 +3,7 @@ import images from "../../assets/images/images";
 import Button from "../../components/button/button";
 const Intro = () => {
     return(
-        <div className="flex gap-20 mt-28 mb-28">
+        <div className="flex gap-20 mt-32 mb-28 ">
         <div className="flex flex-col">
         <span className="text-orange uppercase text-sm font-normal tracking-widest pb-5">hello!</span>
         <div className="text-7xl font-extrabold">
@@ -30,8 +30,8 @@ const Intro = () => {
         />
         </div>
         </div>
-        <div className="">
-        <img src= {images.background_1} alt="" />
+        <div className="-mt-36">
+        <img src= {images.background_1} alt="" className="max-auto max-w-full"/>
         </div>
         </div>
     )
