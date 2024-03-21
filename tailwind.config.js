@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { white,orange,gray,transparent } from './src/utils/styles/color';
+import { white,orange,gray,transparent,ringColor } from './src/utils/styles/color';
 module.exports = {
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -15,6 +15,7 @@ module.exports = {
         orange,
         gray,
         transparent,
+        ringColor,
       }
     
     

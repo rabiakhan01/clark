@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navData from "../../utils/navData";
+import navData from "../navData";
 import Bars from '@iconscout/react-unicons/icons/uil-bars';
 import { gray, white } from "tailwindcss/colors";
 import '../../assets/fonts/font.css';
