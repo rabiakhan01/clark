@@ -1,8 +1,17 @@
 import React from "react";
 import images from "../../assets/images/images";
 import Button from "../../components/button/button";
-
+import aboutData from "../../utils/aboutData";
 const About = () => {
+    const data =  aboutData.map((items) => {
+        
+                   return(
+                    <div className="text-primary">
+                    <p>{items.heading}</p>
+                    <p>{items.para}</p>
+                    </div>
+                   );
+                })
     return (
         <div className="flex mt-28 h-full w-full">
             <div className="hidden md:flex relative  w-3/6 lg:-left-12 md:-left-16">
@@ -14,23 +23,8 @@ const About = () => {
                 <span className="text-base sm:text-xl  text-grayColor pb-10 md:text-start text-center">
                     A small river named Duden flows by their place and supplies it with the necessary regelialia.
                 </span>
-                <div className="flex sm:gap-x-12 gap-8 sm:text-xl text-base">
-                <div className="text-primary font-bold text-nowrap">
-                <p>Name:</p>
-                <p>Date of birth:</p>
-                <p className="p-auto">Address</p>
-                <p>Zip code</p>
-                <p>Email</p>
-                <p>Phone</p>
-                </div>
-                <div className="text-grayColor text-wrap">
-                <p>Clark Thompaso</p>
-                <p>January 01, 1987</p>
-                <p>San Francisco CA 97987 USA</p>
-                <p>1000</p>
-                <p>clarkthomp@gmail.com</p>
-                <p>+1-2234-5678-0-0</p>
-                </div>
+                <div>
+                {data}
                 </div>
                 <div className="text-2xl mb-10 mt-10">
                             <span className="text-secondary">120 </span>
