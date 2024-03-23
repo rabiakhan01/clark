@@ -2,9 +2,9 @@ import React from "react";
 import Card from "../../components/button/card/card";
 const Resume = () => {
     return (
-        <div className="flex mt-28 mb-28 flex-col h-1vh">
+        <div className="flex mt-28 mb-28 flex-col h-1vh w-full">
 
-            <div className=" relative flex flex-col justify-center items-center px-24">
+            <div className=" relative flex flex-col justify-center items-center px-24 ">
                 <p className="md:text-6xl text-5xl font-extrabold pb-16 text-primary">Resume</p>
                 <p className="md:text-9xl text-7xl text-semiTransparent font-extrabold absolute -top-2">Resume</p>
                 <p className="text-grayColor text-center text-xl mb-16">
