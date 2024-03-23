@@ -40,6 +40,7 @@ const About = () => {
                         px="px-7"
                         py="py-4"
                         color="secondary"
+                        ringColor="ring-secondary"
                     />
                 </div>
 

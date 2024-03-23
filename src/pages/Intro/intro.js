@@ -10,13 +10,14 @@ const Intro = () => {
                 <span className="text-primary">I'm </span>
                 <span className="text-secondary">Clark Thompson</span>
                 <span className="text-primary md:text-4xl  sm:text-3xl text-2xl font-medium pt-4 md:pb-8 pb-4">A Freelance Web Designer</span>
-                <div className="flex flex-row gap-1">
+                <div className="flex flex-row gap-2 ml-1">
                     <Button
                         name="hire me"
                         px="px-7"
                         py="py-4"
                         color="secondary"
                         textColor="black"
+                        ringColor="ring-secondary"
 
                     />
                     <Button

@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "../../components/button/card/card";
+import Button from "../../components/button/button";
 const Resume = () => {
     return (
-        <div className="flex mt-28 mb-28 flex-col h-1vh w-full">
+        <div className="flex mt-28 mb-28 flex-col h-1vh w-full justify-center items-center">
 
             <div className=" relative flex flex-col justify-center items-center px-24 ">
                 <p className="md:text-6xl text-5xl font-extrabold pb-16 text-primary">Resume</p>
@@ -12,6 +13,15 @@ const Resume = () => {
                 </p>
             </div>
             <Card />
+            <div className="text-buttonText mt-20">
+            <Button
+                name="Download cv"
+                px="px-12"
+                py="py-6"
+                color="secondary"
+                ringColor="ring-secondary"
+            />
+        </div>
         </div>
     );
 }
