@@ -17,7 +17,7 @@ const About = () => {
         );
     })
     return (
-        <div className="flex mt-28 h-full w-full">
+        <div className="flex mt-20 h-full w-full">
             <div className="hidden md:flex relative  w-3/6 lg:-left-12 md:-left-16">
                 <img src={images.image_about} alt="" className="lg:w-full lg:h-full max-w-lg" />
             </div>
