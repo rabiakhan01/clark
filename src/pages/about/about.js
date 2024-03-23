@@ -10,53 +10,41 @@ const About = () => {
             </div>
             <div className="relative flex w-full  flex-col md:justify-start md:items-start justify-center items-center lg:w-3/6 md:w-2/5 text-primary lg:ml-0 mt-6 lg:left-0 md:left-12">
                 <span className="md:text-6xl text-5xl font-extrabold pb-16 ">About Me</span>
-                <span className="md:text-8xl text-7xl text-semiTransparent font-extrabold absolute md:-left-6">About</span>
-                <span className="text-xl  text-grayColor pb-10 md:text-start text-center">
+                <span className="md:text-8xl text-7xl text-semiTransparent font-extrabold absolute md:-left-6 -top-2 ">About</span>
+                <span className="text-base sm:text-xl  text-grayColor pb-10 md:text-start text-center">
                     A small river named Duden flows by their place and supplies it with the necessary regelialia.
                 </span>
-                <div className="flex flex-col lg:gap-x-10 md:gap-x-4 mb-10">
-                    <div>
-                        <ul className="flex flex-col gap-y-3">
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Name:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">Clark Thompason</span>
-                            </li>
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Date of birth:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">January 01, 1987</span>
-                            </li>
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Address:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">San Francisco CA 97987 USA</span>
-                            </li>
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Zip code:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">1000</span>
-                            </li>
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Email:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">clarkthomp@gmail.com</span>
-                            </li>
-                            <li className="flex gap-x-10">
-                                <span className="text-xl text-nowrap font-bold">Phone:</span>
-                                <span className="flex flex-col gap-y-3 text-xl  text-grayColor">+1-2234-5678-0-0</span>
-                            </li>
-                        </ul>
-                        <div className="text-2xl mb-10">
+                <div className="flex sm:gap-x-12 gap-8 sm:text-xl text-base">
+                <div className="text-primary font-bold text-nowrap">
+                <p>Name:</p>
+                <p>Date of birth:</p>
+                <p className="p-auto">Address</p>
+                <p>Zip code</p>
+                <p>Email</p>
+                <p>Phone</p>
+                </div>
+                <div className="text-grayColor text-wrap">
+                <p>Clark Thompaso</p>
+                <p>January 01, 1987</p>
+                <p>San Francisco CA 97987 USA</p>
+                <p>1000</p>
+                <p>clarkthomp@gmail.com</p>
+                <p>+1-2234-5678-0-0</p>
+                </div>
+                </div>
+                <div className="text-2xl mb-10 mt-10">
                             <span className="text-secondary">120 </span>
                             <span className="text-primary">Project complete</span>
-                        </div>
-                    </div>
-                    <div className="text-buttonText flex md:justify-start md:items-start justify-center items-center">
-                            <Button
-                                name="Download cv"
-                                px="px-7"
-                                py="py-4"
-                                color="secondary"
-                            />
-                        </div>
-
                 </div>
+                <div className="text-buttonText flex md:justify-start md:items-start justify-center items-center">
+                        <Button
+                            name="Download cv"
+                            px="px-7"
+                            py="py-4"
+                            color="secondary"
+                        />
+                    </div>
+
             </div>
         </div>
     );
