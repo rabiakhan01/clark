@@ -3,15 +3,19 @@ import images from "../../assets/images/images";
 import Button from "../../components/button/button";
 import aboutData from "../../utils/aboutData";
 const About = () => {
-    const data =  aboutData.map((items) => {
-        
-                   return(
-                    <div className="text-primary">
+    const data = aboutData.map((items) => {
+
+        return (
+            <div className="flex  gap-x-20 md:text-xl text-base">
+                <div className="w-12 text-nowrap text-primary font-bold ">
                     <p>{items.heading}</p>
+                </div>
+                <div className="text-grayColor">
                     <p>{items.para}</p>
-                    </div>
-                   );
-                })
+                </div>
+            </div>
+        );
+    })
     return (
         <div className="flex mt-28 h-full w-full">
             <div className="hidden md:flex relative  w-3/6 lg:-left-12 md:-left-16">
@@ -24,20 +28,20 @@ const About = () => {
                     A small river named Duden flows by their place and supplies it with the necessary regelialia.
                 </span>
                 <div>
-                {data}
+                    {data}
                 </div>
                 <div className="text-2xl mb-10 mt-10">
-                            <span className="text-secondary">120 </span>
-                            <span className="text-primary">Project complete</span>
+                    <span className="text-secondary">120 </span>
+                    <span className="text-primary">Project complete</span>
                 </div>
                 <div className="text-buttonText flex md:justify-start md:items-start justify-center items-center">
-                        <Button
-                            name="Download cv"
-                            px="px-7"
-                            py="py-4"
-                            color="secondary"
-                        />
-                    </div>
+                    <Button
+                        name="Download cv"
+                        px="px-7"
+                        py="py-4"
+                        color="secondary"
+                    />
+                </div>
 
             </div>
         </div>
