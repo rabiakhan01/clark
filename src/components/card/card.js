@@ -1,5 +1,5 @@
 import React from "react";
-import cardData from "../../../utils/cardData";
+import cardData from "../../utils/cardData";
 const Card = () => {
     const data = cardData.map((items) => {
         return(

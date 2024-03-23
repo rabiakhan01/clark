@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../components/button/card/card";
+import Card from "../../components/card/card";
 import Button from "../../components/button/button";
 const Resume = () => {
     return (
