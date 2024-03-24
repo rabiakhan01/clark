@@ -4,6 +4,7 @@ import Intro from "./Intro/intro";
 import About from "./about/about";
 import Resume from "./Resume/Resume";
 import Services from "./services/services";
+import Skills from "./skills/skills";
 const HomePage = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const HomePage = () => {
         <About />
         <Resume />
         <Services />
+        <Skills />
         </Layout>
         </>
     );
