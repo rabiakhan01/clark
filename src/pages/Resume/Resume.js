@@ -14,14 +14,14 @@ const Resume = () => {
             </div>
             <Card />
             <div className="text-buttonText mt-20">
-            <Button
-                name="Download cv"
-                px="px-12"
-                py="py-6"
-                color="secondary"
-                ringColor="ring-secondary"
-            />
-        </div>
+                <Button
+                    name="Download cv"
+                    px="px-12"
+                    py="py-6"
+                    color="secondary"
+                    ringColor="ring-secondary"
+                />
+            </div>
         </div>
     );
 }
