@@ -1,17 +1,19 @@
-const primary = '#ffffff';
-const secondary = '#ffbd39'
+const primaryColor = '#ffffff';
+const secondaryColor = '#ffbd39'
 const grayColor = 'rgba(255, 255, 255, 0.5)';
 const semiTransparent = 'rgba(255, 255, 255, 0.1)';
-const transparent = '#00000000';
+const transparentColor = '#00000000';
+const backgroundColor = "#0c1317";
 const ringColor = '#fff';
-const buttonText = "#000000";
+const blackColor = "#000000";
 export {
-    primary,
-    secondary,
+    primaryColor,
+    secondaryColor,
     grayColor,
-    transparent,
+    transparentColor,
     semiTransparent,
     ringColor,
-    buttonText,
+    blackColor,
+    backgroundColor,
 
 }

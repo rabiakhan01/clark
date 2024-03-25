@@ -18,25 +18,25 @@ const Navbar = () => {
 
     const data = navData.map((items) => {
         return (
-            <li className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondary hover:cursor-pointer ${hover ? `text-secondary` : `text-primary`} `} key={items.id} onClick={handelItemClick}>
+            <li className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${hover ? `text-secondaryColor` : `text-primary`} `} key={items.id} onClick={handelItemClick}>
                 {items.name}
             </li>
         );
     })
     return (
-        <nav className="sticky flex justify-between lg:items-center my-0 py-4 gap-2 z-10">
-            <div className="flex lg:flex-row justify-center items-center flex-col">
-                <span className="text-primary font-black text-2xl uppercase lg:pb-0 pb-10">Clark</span>
+        <nav className="sticky top-0 w-full h-20  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-5 sm:px-20 xl:px-32 2xl:max-w-[1440px] 2xl:my-0 2xl:mx-auto">
+            <div className="lg:flex lg:flex-row justify-center items-center flex-col">
+                <span className="text-primaryColor font-black text-2xl uppercase lg:pb-0 pb-10">Clark</span>
                 {click &&
                     <div className="">
-                        <ul className="lg:hidden text-primary space-y-6 font-light text-base">
+                        <ul className="lg:hidden text-primaryColor space-y-6 font-light text-base">
                             {data}
                         </ul>
                     </div>
                 }
             </div>
             <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center ">
-                <ul className="flex xl:space-x-10 space-x-8  text-primary font-light text-base not-italic">
+                <ul className="flex xl:space-x-10 space-x-8  text-primaryColor font-light text-base not-italic">
                     {data}
                 </ul>
             </div>

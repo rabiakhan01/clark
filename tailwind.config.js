@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { primary, secondary, grayColor, transparent, ringColor, semiTransparent, buttonText } from './src/utils/styles/color';
+import { primaryColor, secondaryColor, grayColor, transparentColor, ringColor, semiTransparent, blackColor, backgroundColor } from './src/utils/styles/color';
 module.exports = {
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -16,13 +16,14 @@ module.exports = {
       },
     },
     colors: {
-      primary,
-      secondary,
-      grayColor,
-      transparent,
-      ringColor,
-      semiTransparent,
-      buttonText,
+      'primaryColor': primaryColor,
+      'secondaryColor': secondaryColor,
+      'grayColor': grayColor,
+      'transparentColor': transparentColor,
+      'ringColor': ringColor,
+      'semiTransparent': semiTransparent,
+      'blackColor': blackColor,
+      'backgroundColor': backgroundColor,
     }
 
 

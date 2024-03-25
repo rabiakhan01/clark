@@ -7,8 +7,8 @@ export default function ProjectCard() {
             return (
                 <div className="w-[350px] h-[280px]">
                     <img src={items.project_image} alt="" className=" object-cover h-72 w-96" />
-                    <p className="text-primary text-base font-medium">{items.project_name}</p>
-                    <p className="text-primary">{items.category}</p>
+                    <p className="text-primaryColor text-base font-medium">{items.project_name}</p>
+                    <p className="text-primaryColor">{items.category}</p>
                 </div>
             )
         }
