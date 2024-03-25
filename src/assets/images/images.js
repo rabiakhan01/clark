@@ -21,6 +21,13 @@ const images = {
     project5: require('./project-5.jpg'),
     project6: require('./project-6.jpg'),
 
+    //blog section icon and images
+    chat: require('./icons/chat.png'),
+    blog1: require('./image_1.jpg'),
+    blog2: require('./image_2.jpg'),
+    blog3: require('./image_3.jpg'),
+
+
 
 }
 export default images;

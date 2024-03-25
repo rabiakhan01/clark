@@ -6,6 +6,7 @@ import Resume from "./Resume/resume";
 import Services from "./services/services";
 import Skills from "./skills/skills";
 import Projects from "./projects/projects";
+import Blog from "./blog/blog";
 const HomePage = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const HomePage = () => {
                 <Services />
                 <Skills />
                 <Projects />
+                <Blog />
             </Layout>
         </>
     );
