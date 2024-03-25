@@ -2,7 +2,7 @@ import React from "react";
 export default function Slider({ width, name, percentage }) {
     return (
         <div className="flex flex-col">
-            <div className="text-primary flex justify-between mr-10 text-xl font-semibold tracking-widest pb-4">
+            <div className="text-primary flex justify-between mr-10 text-xl font-medium tracking-widest pb-4">
                 <p>{name}</p>
                 <p className="sm:-mr-0 -mr-10">{percentage}</p>
             </div>
