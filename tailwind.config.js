@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         'background-image': "url('./assets/images/bg_2.png')",
       },
+      width: {
+        '128': '38rem',
+      }
     },
     colors: {
       'primaryColor': primaryColor,
