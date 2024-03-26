@@ -3,9 +3,9 @@ import Card from "../../components/card/card";
 import Button from "../../components/button/button";
 const Resume = () => {
     return (
-        <div className="flex mt-28 mb-28 flex-col h-1vh w-full justify-center items-center">
+        <div className="flex mt-28 flex-col h-1vh w-full justify-center items-center">
 
-            <div className=" relative flex flex-col justify-center items-center px-24 ">
+            <div className=" relative flex flex-col justify-center items-center">
                 <p className="md:text-6xl text-5xl font-extrabold pb-16 text-primaryColor">Resume</p>
                 <p className="md:text-8xl text-7xl text-semiTransparent font-extrabold absolute top-4">Resume</p>
                 <p className="text-grayColor text-center text-base font-light mb-16">
@@ -17,7 +17,7 @@ const Resume = () => {
                 <Button
                     name="Download cv"
                     px="px-12"
-                    py="py-6"
+                    py="py-5"
                     color="bg-secondaryColor"
                     ringColor="ring-secondaryColor"
                 />

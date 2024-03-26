@@ -12,7 +12,7 @@ export default function ProjectCard() {
         if (items.id === 1 || items.id === 4 || items.id === 5) {
             return (
                 <div className="w-53 sm:w-55 md:w-40 lg:w-50 xl:w-80 h-[280px] group bg-cover 2xl:w-96" key={items.id} style={{ backgroundImage: `url(${items.project_image})` }}>
-                    <div className="group-hover:bg-secondaryColor opacity-75 h-full w-full flex flex-col justify-center items-center ">
+                    <div className="group-hover:bg-secondaryColor opacity-75 h-full w-full flex flex-col justify-center items-center">
                         <p className="text-transparentColor group-hover:text-primaryColor text-xl font-light z-20">{items.project_name}</p>
                         <p className="text-transparentColor group-hover:text-primaryColor text-xs font-medium tracking-widest z-10">{items.category}</p>
                     </div>

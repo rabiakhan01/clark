@@ -8,12 +8,15 @@ module.exports = {
       'md': '768px',
       'lg': '991px',
       'xl': '1200px',
-      '2xl': '1300px',
+      '2xl': '1270px',
     },
     extend: {
       backgroundImage: {
         'background-image': "url('./assets/images/bg_2.png')",
         'hireme': "url('./assets/images/hire_me.jpg')",
+      },
+      listStyleImage: {
+        'arrow': "url('./assets/icons/arrow-right.png')",
       },
       width: {
         '128': '44rem',
@@ -23,7 +26,9 @@ module.exports = {
         '53': '22rem',
         '55': '30rem',
         '120': '22rem',
-        '3/12': '22%'
+        '3/12': '22%',
+        '5/12': '40%',
+        '1/4': '30%',
       },
       height: {
         '120': '33rem',

@@ -33,6 +33,15 @@ const images = {
     send: require('../icons/sendIcon.png'),
     globe: require('../icons/worldIcon.png'),
 
+    //icons for footer section
+    twitter: require('../icons/twitterIcon.png'),
+    facebook: require('../icons/facebookIcon.png'),
+    instra: require('../icons/instraIcon.png'),
+    location: require('../icons/mapIcon.png'),
+    phone: require('../icons/phoneIcon.png'),
+    email: require('../icons/emailIcon.png'),
+    arrow: require('../icons/arrow-right.png'),
+    heart: require('../icons/heartIcon.png'),
 
 
 

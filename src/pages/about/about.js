@@ -6,7 +6,7 @@ const About = () => {
     const data = aboutData.map((items) => {
 
         return (
-            <div className="flex  gap-x-16 sm:text-base font-light text-sm">
+            <div className="flex gap-x-16 sm:text-base font-light text-sm">
                 <div className="w-12 text-nowrap text-primaryColor font-bold ">
                     <p>{items.heading}</p>
                 </div>
@@ -17,11 +17,11 @@ const About = () => {
         );
     })
     return (
-        <div className="flex mt-20 h-full w-full">
-            <div className="hidden md:flex relative w-3/6 lg:-left-12 md:-left-16">
-                <img src={images.person} alt="" className="lg:w-full lg:h-full max-w-lg" />
+        <div className="flex mt-40 md:mt-28 h-full w-full">
+            <div className="hidden md:flex lg:w-5/12 w-2/4 ">
+                <img src={images.person} alt="" className="lg:w-full lg:h-full max-w-sm" />
             </div>
-            <div className="relative flex w-full  flex-col md:justify-start md:items-start justify-center items-center lg:w-3/6 md:w-2/5 text-primaryColor lg:ml-0 mt-6 lg:left-0 md:left-8">
+            <div className="relative flex w-full md:w-2/5 lg:w-3/6 flex-col md:justify-start md:items-start justify-center items-center  text-primaryColor">
                 <span className="md:text-5xl text-4xl font-extrabold pb-16 ">About Me</span>
                 <span className="md:text-8xl text-7xl text-semiTransparent font-extrabold absolute md:-left-6 -top-2 ">About</span>
                 <span className="sm:text-base font-light text-sm  text-grayColor pb-10 md:text-start text-center">

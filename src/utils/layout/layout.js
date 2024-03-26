@@ -5,10 +5,10 @@ const Layout = ({ children }) => {
     return (
         <>
             <Navbar />
-            <div className="mx-5 lg:mx-16 xl:mx-20 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto overflow-hidden">
+            <div className="mx-6 md:mx-10 lg:mx-16 xl:mx-20 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto overflow-hidden">
                 {children}
+                <Footer />
             </div>
-            <Footer />
         </>
     );
 }

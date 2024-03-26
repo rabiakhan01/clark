@@ -23,9 +23,9 @@ const Navbar = () => {
         );
     })
     return (
-        <nav className="sticky top-0 w-full lg:h-20 lg:py-0 py-6  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-10 lg:px-16 xl:px-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
+        <nav className="sticky top-0 w-full lg:h-20 lg:py-0 py-6  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-6 md:px-10 lg:px-16 xl:px-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
             <div className="lg:flex lg:flex-row justify-center items-center flex-col">
-                <span className="text-primaryColor font-black text-2xl uppercase">Clark</span>
+                <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase">Clark</span>
                 {click &&
                     <div className="lg:hidden">
                         <ul className=" text-primaryColor font-light text-base flex flex-col gap-4 lg:mt-0 mt-10">
