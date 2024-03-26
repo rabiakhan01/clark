@@ -27,6 +27,13 @@ const images = {
     blog2: require('./image_2.jpg'),
     blog3: require('./image_3.jpg'),
 
+    // contact section icons
+    address: require('../icons/signIcon.png'),
+    call: require('../icons/callIcon.png'),
+    send: require('../icons/sendIcon.png'),
+    globe: require('../icons/worldIcon.png'),
+
+
 
 
 }
