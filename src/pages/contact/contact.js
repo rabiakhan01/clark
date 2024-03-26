@@ -1,4 +1,5 @@
 import React from "react";
+import ContactCard from "../../components/contactSectionCard/contactCard";
 
 export default function Contact() {
     return (
@@ -9,6 +10,7 @@ export default function Contact() {
                 <p className="text-grayColor text-center text-base font-light mb-16 w-8/12">
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia                </p>
             </div>
+            <ContactCard />
         </div>
     )
 }

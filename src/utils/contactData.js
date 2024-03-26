@@ -11,12 +11,12 @@ export default [
         content: '+ 1235 2355 98',
     },
     {
-        icon: images.address,
+        icon: images.send,
         name: 'email address',
         content: 'info@yoursite.com',
     },
     {
-        icon: images.address,
+        icon: images.globe,
         name: 'website',
         content: 'yoursite.com',
     },
