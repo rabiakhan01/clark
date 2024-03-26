@@ -1,34 +1,34 @@
-export default  [
+export default [
     {
-        id: 1,
+        id: 'Home',
         name: 'Home',
     },
     {
-        id: 2,
+        id: 'About',
         name: 'About',
     },
     {
-        id: 3,
+        id: 'Resume',
         name: 'Resume',
     },
     {
-        id: 4,
+        id: 'Services',
         name: 'Services',
     },
     {
-        id: 5,
+        id: 'Skills',
         name: 'Skills',
     },
     {
-        id: 6,
+        id: 'Projects',
         name: 'Projects',
     },
     {
-        id: 7,
+        id: 'Blog',
         name: 'My Blog',
     },
     {
-        id: 8,
+        id: 'Contact',
         name: 'Contact',
     },
 ];

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import navData from '../../navData';
 import Bars from '@iconscout/react-unicons/icons/uil-bars';
+import { Link } from "react-scroll";
+
+
 const Navbar = () => {
     const [click, setClick] = useState(false);
     let [hover, setHover] = useState(false);

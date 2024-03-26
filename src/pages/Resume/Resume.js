@@ -3,7 +3,7 @@ import Card from "../../components/card/card";
 import Button from "../../components/button/button";
 const Resume = () => {
     return (
-        <div className="flex mt-28 flex-col h-1vh w-full justify-center items-center">
+        <div className="flex mt-28 flex-col h-1vh w-full justify-center items-center" id="Resume">
 
             <div className=" relative flex flex-col justify-center items-center">
                 <p className="md:text-6xl text-5xl font-extrabold pb-16 text-primaryColor">Resume</p>

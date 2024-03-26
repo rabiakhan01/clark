@@ -17,7 +17,7 @@ const About = () => {
         );
     })
     return (
-        <div className="flex mt-40 md:mt-28 h-full w-full">
+        <div className="flex mt-40 md:mt-28 h-full w-full" id="About">
             <div className="hidden md:flex lg:w-5/12 w-2/4 ">
                 <img src={images.person} alt="" className="lg:w-full lg:h-full max-w-sm" />
             </div>
