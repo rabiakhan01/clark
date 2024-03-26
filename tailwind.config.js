@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { primaryColor, secondaryColor, grayColor, transparentColor, ringColor, semiTransparent, blackColor, backgroundColor, divColor, grayShade400 } from './src/utils/styles/color';
+import { primaryColor, secondaryColor, grayColor, transparentColor, ringColor, semiTransparent, blackColor, backgroundColor, divColor, grayShade400, formBackground } from './src/utils/styles/color';
 module.exports = {
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -24,6 +24,9 @@ module.exports = {
         '55': '30rem',
         '120': '22rem',
         '3/12': '22%'
+      },
+      height: {
+        '120': '33rem',
       }
     },
     colors: {
@@ -37,6 +40,8 @@ module.exports = {
       'backgroundColor': backgroundColor,
       'divColor': divColor,
       'grayShade400': grayShade400,
+      'formBackground': formBackground,
+
     }
 
 

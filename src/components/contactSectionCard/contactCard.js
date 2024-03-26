@@ -8,7 +8,7 @@ export default function ContactCard() {
                 <div className="flex w-24 h-24 bg-semiTransparent justify-center items-center rounded-full">
                     <img src={items.icon} alt="" height={30} width={30} />
                 </div>
-                <div className="flex flex-col text-center h-32 gap-8">
+                <div className="flex flex-col text-center h-32">
                     <p className="text-primaryColor text-base font-medium uppercase">{items.name}</p>
                     <p className="text-grayShade400 text-base font-light text-center">{items.content}</p>
                 </div>

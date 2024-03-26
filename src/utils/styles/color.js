@@ -8,6 +8,7 @@ const ringColor = '#fff';
 const blackColor = "#000000";
 const divColor = "#191919";
 const grayShade400 = 'rgba(255, 255, 255, 0.8)';
+const formBackground = '#f8f9fa';
 export {
     primaryColor,
     secondaryColor,
@@ -19,5 +20,6 @@ export {
     backgroundColor,
     divColor,
     grayShade400,
+    formBackground,
 
 }

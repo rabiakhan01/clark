@@ -4,7 +4,7 @@ import Button from "../../components/button/button";
 export default function HireMe() {
     return (
         <div className="mt-20 h-full">
-            <div className="relative top-20 flex flex-wrap gap-10 justify-center items-cente z-10">
+            <div className="relative md:top-20 md:mb-0 mb-10 flex flex-wrap md:gap-8 gap-4 xl:gap-10 justify-center items-cente z-10">
                 <HireMeCard />
             </div>
             <div className="flex flex-col w-full h-[500px] bg-hireme bg-no-repeat justify-center items-center gap-6 tracking-widest bg-opacity-50 bg-[length:1400px_700px]">

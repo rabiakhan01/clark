@@ -19,7 +19,7 @@ const About = () => {
     return (
         <div className="flex mt-20 h-full w-full">
             <div className="hidden md:flex relative w-3/6 lg:-left-12 md:-left-16">
-                <img src={images.image_about} alt="" className="lg:w-full lg:h-full max-w-lg" />
+                <img src={images.person} alt="" className="lg:w-full lg:h-full max-w-lg" />
             </div>
             <div className="relative flex w-full  flex-col md:justify-start md:items-start justify-center items-center lg:w-3/6 md:w-2/5 text-primaryColor lg:ml-0 mt-6 lg:left-0 md:left-8">
                 <span className="md:text-5xl text-4xl font-extrabold pb-16 ">About Me</span>
@@ -34,7 +34,7 @@ const About = () => {
                     <span className="text-secondaryColor">120 </span>
                     <span className="text-primaryColor">Project complete</span>
                 </div>
-                <div className="text-buttonText flex md:justify-start md:items-start justify-center items-center">
+                <div className=" flex md:justify-start md:items-start justify-center items-center">
                     <Button
                         name="Download cv"
                         px="px-7"

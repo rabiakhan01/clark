@@ -1,7 +1,7 @@
 const images = {
 
-    // about section
-    image_about: require('./bg_1.png'),
+    // about section and contact section image
+    person: require('./bg_1.png'),
 
     //icons for services section
 
