@@ -7,6 +7,8 @@ import Services from "./services/services";
 import Skills from "./skills/skills";
 import Projects from "./projects/projects";
 import Blog from "./blog/blog";
+import HireMe from "./hireme/hireme";
+import Contact from "./contact/contact";
 const HomePage = () => {
     return (
         <>
@@ -18,6 +20,8 @@ const HomePage = () => {
                 <Skills />
                 <Projects />
                 <Blog />
+                <HireMe />
+                <Contact />
             </Layout>
         </>
     );

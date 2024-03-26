@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import navData from '../../navData';
 import Bars from '@iconscout/react-unicons/icons/uil-bars';
-import '../../../assets/fonts/font.css';
 const Navbar = () => {
     const [click, setClick] = useState(false);
     let [hover, setHover] = useState(false);
@@ -24,7 +23,7 @@ const Navbar = () => {
         );
     })
     return (
-        <nav className="sticky top-0 w-full lg:h-20 lg:py-0 py-6  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-10 sm:px-20 xl:px-32 2xl:p-0 2xl:max-w-[1250px] 2xl:my-0 2xl:mx-auto">
+        <nav className="sticky top-0 w-full lg:h-20 lg:py-0 py-6  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-10 lg:px-16 xl:px-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
             <div className="lg:flex lg:flex-row justify-center items-center flex-col">
                 <span className="text-primaryColor font-black text-2xl uppercase">Clark</span>
                 {click &&
