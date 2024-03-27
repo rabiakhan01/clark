@@ -8,8 +8,8 @@ export default function HireMe() {
                 <HireMeCard />
             </div>
             <div className="flex flex-col w-full h-[500px] bg-hireme bg-no-repeat justify-center items-center gap-6 tracking-widest bg-opacity-50 bg-[length:1400px_700px]">
-                <p className="text-primaryColor text-4xl font-extrabold">I'm <span className="text-secondaryColor">Available</span> for freelancing</p>
-                <p className="text-grayColor font-light text-base w-2/5 text-center">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p className="text-primaryColor text-3xl sm:text-4xl font-extrabold text-center md:px-0 px-4">I'm <span className="text-secondaryColor">Available</span> for freelancing</p>
+                <p className="text-grayColor font-light text-base md:w-3/5 text-center md:px-0 px-4 w-8/12">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                 <Button
                     name="hire me"
                     px="px-12"

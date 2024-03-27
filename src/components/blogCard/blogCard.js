@@ -3,8 +3,8 @@ import blogData from "../../utils/blogData";
 export default function BlogCard() {
     const data = blogData.map((items) => {
         return (
-            <div className="flex flex-col sm:w-120 w-80 gap-6">
-                <img src={items.blogImage} alt="" className="object-fit w-full h-80" />
+            <div className="flex flex-col sm:w-120 2xl:w-120 w-80 gap-6">
+                <img src={items.blogImage} alt="" className="object-cover w-full h-80" />
                 <div className="flex gap-x-6 text-secondaryColor font-light uppercase text-xs tracking-widest">
                     <p>{items.date}</p>
                     <p>{items.designation}</p>

@@ -18,7 +18,7 @@ export default function FooterCard() {
         )
     })
     return (
-        <div className="flex gap-6 w-full">
+        <div className="flex md:flex-row flex-col gap-6 w-full ">
             {data}
         </div>
     )
