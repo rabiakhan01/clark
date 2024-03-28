@@ -13,10 +13,10 @@ export default function Contact() {
             </div>
             <ContactCard />
             <div className="flex md:flex-row flex-col-reverse justify-center items-center  w-full md:h-120 h-full">
-                <div className="flex justify-center items-center bg-semiTransparent w-5/6 sm:w-1/11 md:w-55 md:pt-20 h-full overflow-hidden">
+                <div className="flex justify-center items-center bg-semiTransparent w-full sm:w-1/11 md:w-55 md:pt-20 h-full overflow-hidden">
                     <img src={images.person} alt="" className="object-cover sm:max-w-md md:max-w-sm h-full md:h-auto lg:max-w-md xl:max-w-lg" />
                 </div>
-                <div className="flex justify-center items-center bg-formBackground w-5/6 sm:w-1/11 md:w-55 h-full md:pb-0 pb-6 md:pt-0 pt-6">
+                <div className="flex justify-center items-center bg-formBackground w-full sm:w-1/11 md:w-57 h-full md:pb-0 pb-6 md:pt-0 pt-6">
                     <form className="flex flex-col gap-6 justify-center items-center w-full">
                         <input type="text" placeholder="Your Name" name="yourName" className="w-5/6 h-14 border border-slate-500 focus:outline indent-4 rounded-md" />
                         <input type="email" placeholder="Your Email" name="yourEmail" className="w-5/6 h-14 border border-slate-500 focus:outline indent-4 rounded-md" />

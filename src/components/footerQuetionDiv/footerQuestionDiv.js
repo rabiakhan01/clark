@@ -8,7 +8,7 @@ export default function FooterQuestionDiv() {
                 <div className="w-10">
                     <img src={items.icon} alt="" height={16} width={16} />
                 </div>
-                <div className="text-grayColor text-base text-wrap w-full mb-5">
+                <div className="text-grayColor text-sm sm:text-base text-wrap w-full mb-3">
                     <p>{items.text}</p>
                 </div>
             </div>

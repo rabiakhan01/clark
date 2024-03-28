@@ -4,10 +4,10 @@ import footerData from "../../utils/footerData";
 export default function FooterCard() {
     const data = footerData.map((items) => {
         return (
-            <div className="flex flex-col sm:w-3/6 w-full gap-10">
+            <div className="flex flex-col sm:w-3/5 mb-10  gap-6 lg:gap-10">
                 <p className="text-primaryColor text-2xl font-bold">{items.heading}</p>
-                <div className="flex flex-col gap-3 text-grayColor">
-                    <p className="flex gap-4 text-wrap"><img src={items.arrow} alt="" height={16} width={16} />{items.element1}</p>
+                <div className="flex flex-col gap-2 text-grayColor text-sm sm:text-base text-nowrap ">
+                    <p className="flex gap-4"><img src={items.arrow} alt="" height={16} width={16} />{items.element1}</p>
                     <p className="flex gap-4"><img src={items.arrow} alt="" height={16} width={16} />{items.element2}</p>
                     <p className="flex gap-4"><img src={items.arrow} alt="" height={16} width={16} />{items.element3}</p>
                     <p className="flex gap-4"><img src={items.arrow} alt="" height={16} width={16} />{items.element4}</p>
@@ -18,7 +18,7 @@ export default function FooterCard() {
         )
     })
     return (
-        <div className="flex md:flex-row flex-col gap-6 w-full ">
+        <div className="flex md:flex-row flex-col w-full ">
             {data}
         </div>
     )

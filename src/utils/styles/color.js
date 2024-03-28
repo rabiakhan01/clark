@@ -2,6 +2,7 @@ const primaryColor = '#ffffff';
 const secondaryColor = '#ffbd39'
 const grayColor = 'rgba(255, 255, 255, 0.5)';
 const semiTransparent = 'rgba(255, 255, 255, 0.1)';
+const navBackgroundColor = 'rgba(12, 19, 23, 100)';
 const transparentColor = '#00000000';
 const backgroundColor = "#0c1317";
 const ringColor = '#fff';
@@ -21,5 +22,6 @@ export {
     divColor,
     grayShade400,
     formBackground,
+    navBackgroundColor
 
 }

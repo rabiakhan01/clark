@@ -2,30 +2,27 @@ import React from "react";
 import FooterCard from "../../../components/footerSectionCard/footerCard";
 import FooterDiv from "../../../components/footerSectionDiv/footerDiv";
 import FooterQuestionDiv from "../../../components/footerQuetionDiv/footerQuestionDiv";
-import Heart from '@iconscout/react-unicons/icons/uil-heart-sign';
 const Footer = () => {
     return (
-        <footer className="flex flex-col justify-center items-center mt-28 gap-16 mb-28 mx-10 sm:mx-0">
-            <div className="flex lg:flex-row-reverse flex-col gap-8">
-                <div className=" flex flex-col lg:w-1/2 w-4/5 gap-10">
+        <footer className="flex flex-col justify-center items-center pt-20 md:pt-28 gap-16 mb-20 mx-6 ">
+            <div className="flex lg:flex-row flex-col gap-8">
+                <div className=" flex flex-col lg:w-1/2 w-full gap-6 lg:gap-10">
                     <p className="text-primaryColor text-2xl font-bold">About</p>
-                    <p className="text-wrap text-grayColor text-base">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div className="flex gap-4">
+                    <p className="text-wrap text-grayColor text-sm sm:text-base">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <div className="flex gap-4 mb-10 lg:mb-0">
                         <FooterDiv />
                     </div>
                 </div>
                 <FooterCard />
-                <div className="flex flex-col gap-10 w-1/2">
+                <div className="w-full flex flex-col gap-6 md:gap-10">
                     <p className="text-2xl text-primaryColor font-bold">Have a Question?</p>
-                    <div className="">
+                    <div className=" bg-se">
                         <FooterQuestionDiv />
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-center items-center text-base  text-grayColor">
-                <p className="text-center">Copyright ©2024 All rights reserved | This template is made</p>
-                <Heart color="rgba(255, 255, 255, 0.5)" />
-                <p>by RabiaKhan</p>
+            <div className="flex flex-col md:flex-row justify-center items-center text-sm sm:text-base  text-grayColor">
+                <p className="text-center">Copyright ©2024 All rights reserved | This template is made by <span className="text-primaryColor">Rabia Khan</span></p>
 
             </div>
         </footer>

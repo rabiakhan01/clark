@@ -13,8 +13,14 @@ const Navbar = () => {
     const handleScroll = (index, item) => {
         let element = document.getElementById(item.itemID);
         element.scrollIntoView({ behavior: 'smooth' });
-        setColor(index);
 
+        setColor(index);
+        setClick(!click)
+
+    }
+    const handleStart = () => {
+        let scrollElement = document.getElementById("Home");
+        scrollElement.scrollIntoView({ behavior: 'smooth' });
     }
     const data = navData.map((item, index) => {
 
@@ -26,19 +32,19 @@ const Navbar = () => {
         );
     })
     return (
-        <nav className="sticky top-0 w-full lg:h-20 lg:py-0 py-6  bg-backgroundColor flex justify-between lg:items-center my-0 z-20 px-6 sm:px-10 md:px-10 lg:px-16 xl:px-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
-            <div className="lg:flex lg:flex-row justify-center items-center flex-col">
-                <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase">Clark</span>
+        <nav className="!-mt-2 sticky top-0 w-full h-24 lg:py-0 bg-navBackgroundColor flex justify-between items-center my-0 z-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
+            <div className="lg:flex lg:flex-row justify-center items-center flex-col ">
+                <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase cursor-pointer pl-6 sm:pl-10 md:pl-10 lg:pl-16 xl:pl-20" onClick={handleStart}>Clark</span>
                 {click &&
-                    <div className="lg:hidden">
-                        <ul className=" text-primaryColor font-light text-base flex flex-col gap-4 lg:mt-0 mt-10">
+                    <div className="lg:hidden absolute bg-backgroundColor w-full">
+                        <ul className=" text-primaryColor font-light text-base flex flex-col gap-4 lg:pt-0 pt-10 cursor-pointer pl-6 sm:pl-10 md:pl-10 lg:pl-16 xl:pl-20">
                             {data}
                         </ul>
                     </div>
                 }
             </div>
-            <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center" >
-                <ul className="flex xl:space-x-10 space-x-8  text-primaryColor font-light text-base not-italic" >
+            <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center pr-6 sm:pr-10 md:pr-10 lg:pr-16 xl:pr-20" >
+                <ul className="flex xl:space-x-10 space-x-8  text-primaryColor font-light text-base not-italic cursor-pointer" >
                     {data}
                 </ul>
             </div>
@@ -47,7 +53,7 @@ const Navbar = () => {
                     setClick(!click);
                 }} >
                 {
-                    click ? <Cross /> : <Bars />
+                    click ? <Cross color="white" /> : <Bars color="white" />
                 }
             </div>
         </nav>
