@@ -37,9 +37,12 @@ const About = () => {
                 <div className=" flex md:justify-start md:items-start justify-center items-center">
                     <Button
                         name="Download cv"
-                        px="px-7"
-                        py="py-4"
-                        color="bg-secondaryColor"
+                        px="sm:px-7"
+                        py="sm:py-4"
+                        sm_px="px-4"
+                        sm_py="py-4"
+                        md_bg="bg-secondaryColor"
+                        color="lg:bg-secondaryColor"
                         ringColor="ring-secondaryColor"
                         textColor="text-blackColor"
                     />

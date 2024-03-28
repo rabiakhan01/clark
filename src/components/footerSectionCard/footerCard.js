@@ -4,7 +4,7 @@ import footerData from "../../utils/footerData";
 export default function FooterCard() {
     const data = footerData.map((items) => {
         return (
-            <div className="flex flex-col w-3/6 gap-10">
+            <div className="flex flex-col sm:w-3/6 w-full gap-10">
                 <p className="text-primaryColor text-2xl font-bold">{items.heading}</p>
                 <div className="flex flex-col gap-3 text-grayColor">
                     <p className="flex gap-4 text-wrap"><img src={items.arrow} alt="" height={16} width={16} />{items.element1}</p>

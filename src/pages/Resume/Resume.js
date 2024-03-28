@@ -13,12 +13,15 @@ const Resume = () => {
                 </p>
             </div>
             <ResumeCard />
-            <div className="text-blackColor mt-20">
+            <div className="text-blackColor sm:mt-20 mt-10">
                 <Button
                     name="Download cv"
-                    px="px-12"
-                    py="py-5"
-                    color="bg-secondaryColor"
+                    px="sm:px-7"
+                    py="sm:py-4"
+                    sm_px="px-4"
+                    sm_py="py-4"
+                    md_bg="bg-secondaryColor"
+                    color="lg:bg-secondaryColor"
                     ringColor="ring-secondaryColor"
                 />
             </div>

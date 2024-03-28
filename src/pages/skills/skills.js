@@ -10,7 +10,7 @@ export default function Skills() {
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
                 </p>
             </div>
-            <div className="grid md:grid-rows-3 grid-rows-6 lg:px-8 sm:px-9 grid-flow-col gap-8  w-full">
+            <div className="grid md:grid-rows-3 grid-rows-6 lg:px-8 sm:px-6 px-4 grid-flow-col gap-8  w-full">
                 <Slider width="w-[90%]" name="Photoshope" percentage="90%" />
                 <Slider width="w-[95%]" name="HTML5" percentage="95%" />
                 <Slider width="w-[70%]" name="Wordpress" percentage="70%" />

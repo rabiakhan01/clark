@@ -3,7 +3,7 @@ import blogData from "../../utils/blogData";
 export default function BlogCard() {
     const data = blogData.map((items) => {
         return (
-            <div className="flex flex-col sm:w-120 2xl:w-120 w-80">
+            <div className="flex flex-col w-5/15 sm:w-55 2xl:w-120">
                 <img src={items.blogImage} alt="" className="object-cover w-full h-80 mb-10" />
                 <div className="flex gap-x-6 text-secondaryColor font-light uppercase text-xs tracking-widest">
                     <p>{items.date}</p>
@@ -19,7 +19,7 @@ export default function BlogCard() {
         )
     })
     return (
-        <div className="flex flex-wrap gap-8 justify-center items-center">
+        <div className="flex flex-wrap gap-10 sm:gap-4 md:gap-8  justify-center items-center">
             {data}
         </div>
     )
