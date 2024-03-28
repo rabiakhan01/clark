@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "../../components/slider/slider";
 export default function Skills() {
     return (
-        <div className="mt-28" id="Skills">
+        <div className="pt-28" id="Skills">
             <div className=" relative flex flex-col justify-center items-center">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold pb-10 sm:pb-16 text-primaryColor">Skills</p>
                 <p className="text-5xl md:text-6xl lg:text-7xl text-semiTransparent font-extrabold absolute top-4">Skills</p>

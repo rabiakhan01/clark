@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "../../components/projectCard/projectCard";
 export default function Projects() {
     return (
-        <div className="mt-28" id="Projects">
+        <div className="pt-28" id="Projects">
             <div className=" relative flex flex-col justify-center items-center">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold sm:pb-16 pb-10 text-primaryColor text-center">Our Projects</p>
                 <p className="text-5xl md:text-6xl lg:text-7xl text-semiTransparent font-extrabold absolute top-2">Projects</p>

@@ -4,7 +4,7 @@ import images from "../../assets/images/images";
 import Button from "../../components/button/button";
 export default function Contact() {
     return (
-        <div className="mt-28" id="Contact">
+        <div className="pt-28" id="Contact">
             <div className=" relative flex flex-col justify-center items-center">
                 <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold pb-16 text-primaryColor">Contact</p>
                 <p className="text-5xl md:text-6xl lg:text-7xl  text-semiTransparent font-extrabold absolute top-4">Contact</p>
