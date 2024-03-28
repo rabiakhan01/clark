@@ -22,8 +22,8 @@ const About = () => {
                 <img src={images.person} alt="" className="lg:w-full lg:h-full max-w-sm 2xl:max-w-lg" />
             </div>
             <div className="relative flex w-full md:w-2/5 lg:w-3/6 flex-col md:justify-start md:items-start justify-center items-center  text-primaryColor 2xl:left-40">
-                <span className="md:text-5xl text-4xl font-extrabold pb-16 ">About Me</span>
-                <span className="md:text-7xl text-6xl text-semiTransparent font-extrabold absolute md:-left-6 top-2">About</span>
+                <span className="text-4xl md:text-5xl lg:text-6xl font-extrabold pb-10 sm:pb-16 ">About Me</span>
+                <span className="text-5xl md:text-6xl lg:text-7xl text-semiTransparent font-extrabold absolute md:-left-6 top-2">About</span>
                 <span className="text-sm sm:text-base font-light  text-grayColor pb-10 md:text-start text-center sm:w-8/12 md:w-full">
                     A small river named Duden flows by their place and supplies it with the necessary regelialia.
                 </span>

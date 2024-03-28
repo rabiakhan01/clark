@@ -5,9 +5,9 @@ const images = {
 
     //icons for services section
 
-    analysis: require('../icons/analysis_white.png'),
-    flasks: require('../icons//flasks_white.png'),
-    ideas: require('../icons/ideas_white.png'),
+    analysis: require('../icons/analysis_black.png'),
+    flasks: require('../icons/flasks_black.png'),
+    ideas: require('../icons/ideas_black.png'),
     analysis_orange: require('../icons/analysis_orange.png'),
     flasks_orange: require('../icons/flasks_orange.png'),
     ideas_orange: require('../icons/ideas_orange.png'),

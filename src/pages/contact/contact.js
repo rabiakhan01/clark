@@ -6,9 +6,9 @@ export default function Contact() {
     return (
         <div className="mt-28" id="Contact">
             <div className=" relative flex flex-col justify-center items-center">
-                <p className="md:text-6xl text-4xl font-extrabold pb-16 text-primaryColor">Contact</p>
-                <p className="md:text-8xl text-6xl text-semiTransparent font-extrabold absolute top-4">Contact</p>
-                <p className="text-grayColor text-center text-base font-light mb-16 w-8/12">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold pb-16 text-primaryColor">Contact</p>
+                <p className="text-5xl md:text-6xl lg:text-7xl  text-semiTransparent font-extrabold absolute top-4">Contact</p>
+                <p className="text-grayColor text-center text-sm sm:text-base font-light mb-16 sm:w-8/12 w-4/5">
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia                </p>
             </div>
             <ContactCard />

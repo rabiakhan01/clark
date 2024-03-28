@@ -7,14 +7,17 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const [crossClick, setCrossClick] = useState(false);
+    const [color, setColor] = useState(null);
 
+    function handelClick(index) {
+        setColor(index);
 
-    const data = navData.map((items) => {
+    }
+    const data = navData.map((items, index) => {
 
         return (
             <Link spy={true} to={items.id} smooth={true} >
-                <li key={items.id} className="hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer">
+                <li key={items.id} className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${color === index ? 'text-secondaryColor' : 'text-primaryColor'} `} onClick={() => handelClick(index)}>
                     {items.name}
                 </li>
             </Link>
@@ -32,14 +35,15 @@ const Navbar = () => {
                     </div>
                 }
             </div>
-            <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center">
-                <ul className="flex xl:space-x-10 space-x-8  text-primaryColor font-light text-base not-italic">
+            <div className="hidden lg:flex lg:flex-auto lg:flex-row lg:justify-end lg:items-center" >
+                <ul className="flex xl:space-x-10 space-x-8  text-primaryColor font-light text-base not-italic" >
                     {data}
                 </ul>
             </div>
-            <div className="lg:hidden flex text-grayColor" onClick={() => {
-                setClick(!click);
-            }} >
+            <div className="lg:hidden flex text-grayColor"
+                onClick={() => {
+                    setClick(!click);
+                }} >
                 {
                     click ? <Cross /> : <Bars />
                 }
