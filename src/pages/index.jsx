@@ -1,14 +1,14 @@
 import React from "react";
 import Layout from "../utils/layout/layout";
-import Intro from "./Intro/intro";
-import About from "./about/about";
-import Resume from "./Resume/resume";
-import Services from "./services/services";
-import Skills from "./skills/skills";
-import Projects from "./projects/projects";
-import Blog from "./blog/blog";
-import HireMe from "./hireme/hireme";
-import Contact from "./contact/contact";
+import Intro from "./Intro";
+import About from "./about";
+import Resume from "./Resume";
+import Services from "./services";
+import Skills from "./skills";
+import Projects from "./projects";
+import Blog from "./blog";
+import HireMe from "./hireme";
+import Contact from "./contact";
 const HomePage = () => {
     return (
         <>
