@@ -13,19 +13,16 @@ const Navbar = () => {
     const handleScroll = (index, item) => {
         let element = document.getElementById(item.itemID);
         element.scrollIntoView({ behavior: 'smooth' });
-        console.log('item', item);
         setColor(index);
 
     }
     const data = navData.map((item, index) => {
 
         return (
-            // <Link spy={true} to={items.id} smooth={true} >
-            <ul>
-                <li key={item.id} className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${color === index ? 'text-secondaryColor' : 'text-primaryColor'} `} onClick={() => handleScroll(index, item)}>
-                    {item.name}
-                </li>
-            </ul>
+            <li key={item.id} className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${color === index ? 'text-secondaryColor' : 'text-primaryColor'} `} onClick={() => handleScroll(index, item)}>
+                {item.name}
+            </li>
+
         );
     })
     return (
