@@ -1,7 +1,7 @@
 import React from "react";
-import serviceData from "../../utils/serviceData";
+import { servicesSectionData } from "../../utils/Data";
 const ServiceCard = () => {
-    const data = serviceData.map((items) => {
+    const data = servicesSectionData.map((items) => {
         return (
             <div className="list bg-semiTransparent text-primaryColor  hover:bg-secondaryColor group w-11/12 sm:w-5/13 lg:w-3/13  h-56 flex flex-col justify-center items-center hover:cursor-pointer">
                 <img src={items.icon} alt="" height={60} width={60} className="pb-10 group-hover:hidden" />

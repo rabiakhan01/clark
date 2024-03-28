@@ -1,7 +1,7 @@
 import React from "react";
-import cardData from "../../utils/cardData";
+import { resumeSectionData } from "../../utils/Data";
 const ResumeCard = () => {
-    const data = cardData.map((items) => {
+    const data = resumeSectionData.map((items) => {
         return (
             <div className="flex flex-col text-primaryColor w-5/15 h-auto md:w-1/11 lg:w-5/14 lg md:h-full xl:h-auto bg-semiTransparent p-8 gap-y-4 rounded-sm">
                 <p className="text-secondaryColor text-2xl sm:text-3xl  font-bold">{items.date}</p>

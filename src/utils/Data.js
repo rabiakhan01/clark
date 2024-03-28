@@ -1,55 +1,296 @@
+import images from "../assets/images/images"
+
+// Data for navbar section
 const navSectionData = [
     {
         id: 1,
         itemID: 'Home',
         name: 'Home',
-        hover: false,
     },
     {
         id: 2,
         itemID: 'About',
         name: 'About',
-        hover: false,
     },
     {
         id: 3,
         itemID: 'Resume',
         name: 'Resume',
-        hover: false,
     },
     {
         id: 4,
         itemID: 'Services',
         name: 'Services',
-        hover: false,
     },
     {
         id: 5,
         itemID: 'Skills',
         name: 'Skills',
-        hover: false,
     },
     {
         id: 6,
         itemID: 'Projects',
         name: 'Projects',
-        hover: false,
     },
     {
         id: 7,
         itemID: 'Blog',
         name: 'My Blog',
-        hover: false,
     },
     {
         id: 8,
         itemID: 'Contact',
         name: 'Contact',
-        hover: false,
     },
 ];
 
 
+// Data for about section
+
+const aboutSectionData = [
+    {
+        heading: 'Name',
+        para: 'Clark Thompson',
+    },
+    {
+        heading: 'Date of birth',
+        para: 'January 01, 1987',
+    },
+    {
+        heading: 'Address',
+        para: 'San Francisco CA 97987 USA',
+    },
+    {
+        heading: 'Zip code',
+        para: '1000',
+    },
+    {
+        heading: 'Email',
+        para: 'clarkthomp@gmail.com',
+    },
+    {
+        heading: 'Phone',
+        para: '+1-2234-5678-0-0',
+    },
+];
+
+
+// Data for resume section
+
+const resumeSectionData = [
+    {
+        date: '2014-2015',
+        degree: 'Master Degree of Design',
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+    {
+        date: '2014-2015',
+        degree: 'Art & Creative Director',
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+    {
+        date: '2014-2015',
+        degree: "Bachelor's Degree of C.A",
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+    {
+        date: '2014-2015',
+        degree: 'Wordpress Developer',
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+    {
+        date: '2014-2015',
+        degree: 'Diploma in Computer',
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+    {
+        date: '2014-2015',
+        degree: 'UI/UX Designer',
+        institute: 'CAMBRIDGE UNIVERSITY',
+        description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.'
+    },
+];
+
+
+// Data for services section
+
+const servicesSectionData = [
+    {
+        icon: images.analysis_orange,
+        white_icon: images.analysis,
+        content: 'web design'
+    },
+    {
+        icon: images.flasks_orange,
+        white_icon: images.flasks,
+        content: 'photography'
+    },
+    {
+        icon: images.ideas_orange,
+        white_icon: images.ideas,
+        content: 'web developer'
+    },
+    {
+        icon: images.analysis_orange,
+        white_icon: images.analysis,
+        content: 'app developing'
+    },
+    {
+        icon: images.flasks_orange,
+        white_icon: images.flasks,
+        content: 'branding'
+    },
+    {
+        icon: images.ideas_orange,
+        white_icon: images.ideas,
+        content: 'project strategy'
+    },
+]
+
+// Data for project section
+
+
+const projectsSectionData = [
+    {
+        id: 1,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project4,
+        category: "WEB DESIGN",
+        show: true,
+    },
+    {
+        id: 2,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project5,
+        category: "WEB DESIGN",
+        show: true,
+    },
+    {
+        id: 3,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project1,
+        category: "WEB DESIGN",
+        show: true,
+    },
+    {
+        id: 4,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project2,
+        category: "WEB DESIGN",
+        show: true,
+    },
+    {
+        id: 5,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project6,
+        category: "WEB DESIGN",
+        show: true,
+    },
+    {
+        id: 6,
+        project_name: "Branding & Illustration Design",
+        project_image: images.project3,
+        category: "WEB DESIGN",
+        show: false,
+    },
+];
+
+//Data for hireMe section
+
+const hireMeSectionData = [
+    {
+        count: '100',
+        content: 'Awards',
+    },
+    {
+        count: '12,00',
+        content: 'Complete Projects',
+    },
+    {
+        count: '12,00',
+        content: 'Happy Customer',
+    },
+    {
+        count: '500',
+        content: 'Cups of coffee',
+    }
+];
+
+
+//Data for blog section
+
+
+const blogSectionData = [
+    {
+        date: "june 21, 2019",
+        designation: "admin",
+        icon: images.chat,
+        count: 3,
+        blogImage: images.blog1,
+        heading: 'Why Lead Generation is Key for Business Growth',
+        content: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+
+    },
+    {
+        date: "june 21, 2019",
+        designation: "admin",
+        icon: images.chat,
+        count: 3,
+        blogImage: images.blog2,
+        heading: 'Why Lead Generation is Key for Business Growth',
+        content: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+
+    },
+    {
+        date: "june 21, 2019",
+        designation: "admin",
+        icon: images.chat,
+        count: 3,
+        blogImage: images.blog3,
+        heading: 'Why Lead Generation is Key for Business Growth',
+        content: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
+
+    },
+]
+
+//Data for contact section
+
+
+const contactSectionData = [
+    {
+        icon: images.address,
+        name: 'address',
+        content: '198 West 21th Street, Suite 721 New York NY 10016',
+    },
+    {
+        icon: images.call,
+        name: 'contact number',
+        content: '+ 1235 2355 98',
+    },
+    {
+        icon: images.send,
+        name: 'email address',
+        content: 'info@yoursite.com',
+    },
+    {
+        icon: images.globe,
+        name: 'website',
+        content: 'yoursite.com',
+    },
+];
+
 export {
     navSectionData,
+    aboutSectionData,
+    resumeSectionData,
+    servicesSectionData,
+    projectsSectionData,
+    blogSectionData,
+    hireMeSectionData,
+    contactSectionData,
 }

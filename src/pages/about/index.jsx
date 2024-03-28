@@ -1,9 +1,9 @@
 import React from "react";
 import images from "../../assets/images/images";
 import Button from "../../components/button/button";
-import aboutData from "../../utils/aboutData";
+import { aboutSectionData } from "../../utils/Data";
 const About = () => {
-    const data = aboutData.map((items) => {
+    const data = aboutSectionData.map((items) => {
 
         return (
             <div className="flex gap-x-16 sm:text-base font-light text-sm">

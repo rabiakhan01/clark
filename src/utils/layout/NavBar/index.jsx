@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navData from '../../navData';
+import { navSectionData } from "../../Data";
 import Bars from '@iconscout/react-unicons/icons/uil-bars';
 import Cross from '@iconscout/react-unicons/icons/uil-times';
 // import { Link } from "react-scroll";
@@ -22,7 +22,7 @@ const Navbar = () => {
         let scrollElement = document.getElementById("Home");
         scrollElement.scrollIntoView({ behavior: 'smooth' });
     }
-    const data = navData.map((item, index) => {
+    const data = navSectionData.map((item, index) => {
 
         return (
             <li key={item.id} className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${color === index ? 'text-secondaryColor' : 'text-primaryColor'} `} onClick={() => handleScroll(index, item)}>

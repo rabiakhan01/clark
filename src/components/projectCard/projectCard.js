@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import projectData from "../../utils/projectData";
+import { projectsSectionData } from "../../utils/Data";
 
 export default function ProjectCard() {
 
@@ -8,7 +8,7 @@ export default function ProjectCard() {
     function handelMouseEnter() {
         setShowdata(!showdata)
     }
-    const data = projectData.map((items) => {
+    const data = projectsSectionData.map((items) => {
         if (items.id === 1 || items.id === 4 || items.id === 5) {
             return (
                 <div className="mx-3 sm:mx-0 w-53 sm:w-55 md:w-50 xl:w-80 2xl:w-96 h-[280px] group bg-cover" key={items.id} style={{ backgroundImage: `url(${items.project_image})` }}>

@@ -1,7 +1,7 @@
 import React from "react";
-import blogData from "../../utils/blogData";
+import { blogSectionData } from "../../utils/Data";
 export default function BlogCard() {
-    const data = blogData.map((items) => {
+    const data = blogSectionData.map((items) => {
         return (
             <div className="flex flex-col w-5/15 sm:w-55 2xl:w-120">
                 <img src={items.blogImage} alt="" className="object-cover w-full h-80 mb-10" />
