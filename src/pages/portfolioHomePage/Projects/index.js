@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "../../components/projectCard/projectCard";
+import ProjectCard from "../../../components/projectCard/projectCard";
 export default function Projects() {
     return (
         <div className="pt-28" id="Projects">

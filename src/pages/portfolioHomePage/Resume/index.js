@@ -1,6 +1,6 @@
 import React from "react";
-import ResumeCard from "../../components/resumeCard/resumeCard";
-import Button from "../../components/button/button";
+import ResumeCard from "../../../components/resumeCard/resumeCard";
+import Button from "../../../components/button/button";
 const Resume = () => {
     return (
         <div className="flex pt-28 flex-col h-1vh w-full justify-center items-center" id="Resume">

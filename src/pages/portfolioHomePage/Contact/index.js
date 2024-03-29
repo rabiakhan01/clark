@@ -1,7 +1,7 @@
 import React from "react";
-import ContactCard from "../../components/contactSectionCard/contactCard";
-import images from "../../assets/images/images";
-import Button from "../../components/button/button";
+import ContactCard from "../../../components/contactSectionCard/contactCard";
+import images from "../../../assets/images/images";
+import Button from "../../../components/button/button";
 export default function Contact() {
     return (
         <div className="pt-28" id="Contact">

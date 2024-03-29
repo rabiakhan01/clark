@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceCard from "../../components/serviceCard/serviceCard";
+import ServiceCard from "../../../components/serviceCard/serviceCard";
 const Services = () => {
     return (
         <div className="pt-28" id="Services">

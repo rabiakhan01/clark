@@ -1,5 +1,5 @@
 import React from "react";
-import BlogCard from "../../components/blogCard/blogCard";
+import BlogCard from "../../../components/blogCard/blogCard";
 export default function Blog() {
     return (
         <div className="pt-28" id="Blog">

@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "../../components/slider/slider";
+import Slider from "../../../components/slider/slider";
 export default function Skills() {
     return (
         <div className="pt-28" id="Skills">

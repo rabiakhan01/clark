@@ -1,7 +1,7 @@
 import React from "react";
-import images from "../../assets/images/images";
-import Button from "../../components/button/button";
-import { aboutSectionData } from "../../utils/Data";
+import images from "../../../assets/images/images";
+import Button from "../../../components/button/button";
+import { aboutSectionData } from "../../../utils/Data";
 const About = () => {
     const data = aboutSectionData.map((items) => {
 

@@ -1,6 +1,6 @@
 import React from "react";
-import HireMeCard from "../../components/hiremeSectionCard/hiremeCard";
-import Button from "../../components/button/button";
+import HireMeCard from "../../../components/hiremeSectionCard/hiremeCard";
+import Button from "../../../components/button/button";
 export default function HireMe() {
     return (
         <div className="mt-28 h-full">
