@@ -284,6 +284,68 @@ const contactSectionData = [
     },
 ];
 
+
+
+// Data fro footer section
+
+
+const footerMiniDivData = [
+    {
+        id: 1,
+        icons: images.twitter,
+    },
+    {
+        id: 2,
+        icons: images.facebook,
+    },
+    {
+        id: 3,
+        icons: images.instra,
+    }
+];
+
+
+const footerSectionCardData = [
+    {
+        id: 1,
+        heading: "Links",
+        element1: "Home",
+        element2: "About",
+        element3: "Services",
+        element4: 'Projects',
+        element5: "Contact",
+        arrow: images.arrow,
+    },
+
+    {
+        id: 2,
+        heading: "Services",
+        element1: "Web Design",
+        element2: "Web Development",
+        element3: "Bussiness Strategy",
+        element4: "Data Analysis",
+        element5: "Grpahic Design",
+        arrow: images.arrow,
+    }
+];
+
+const footerQuestionDivData = [
+    {
+        id: 1,
+        icon: images.location,
+        text: '203 Fake St. Mountain View, San Francisco, California, USA',
+    },
+    {
+        id: 2,
+        icon: images.phone,
+        text: '+2 392 3929 210',
+    },
+    {
+        id: 3,
+        icon: images.email,
+        text: 'info@yourdomain.com',
+    },
+]
 export {
     navSectionData,
     aboutSectionData,
@@ -293,4 +355,8 @@ export {
     blogSectionData,
     hireMeSectionData,
     contactSectionData,
+    footerMiniDivData,
+    footerSectionCardData,
+    footerQuestionDivData,
+
 }

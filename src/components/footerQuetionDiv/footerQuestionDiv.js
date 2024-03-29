@@ -1,8 +1,8 @@
 import React from "react";
-import footerQuestionData from "../../utils/footerQuestionData";
+import { footerQuestionDivData } from "../../utils/Data";
 
 export default function FooterQuestionDiv() {
-    const data = footerQuestionData.map((items) => {
+    const data = footerQuestionDivData.map((items) => {
         return (
             <div className="flex gap-2">
                 <div className="w-10">

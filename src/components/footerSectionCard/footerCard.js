@@ -1,8 +1,8 @@
 import React from "react";
-import footerData from "../../utils/footerData";
+import { footerSectionCardData } from "../../utils/Data";
 
 export default function FooterCard() {
-    const data = footerData.map((items) => {
+    const data = footerSectionCardData.map((items) => {
         return (
             <div className="flex flex-col sm:w-3/5 mb-10  gap-6 lg:gap-10">
                 <p className="text-primaryColor text-2xl font-bold">{items.heading}</p>
