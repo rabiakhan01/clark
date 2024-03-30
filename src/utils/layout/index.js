@@ -1,15 +1,12 @@
 import React from "react";
-import Navbar from "./NavBar";
-import Footer from "./Footer";
+import Navbar from "./navbar";
 const Layout = ({ children }) => {
     return (
-        <>
+        <div className="mx-10 lg:mx-16 xl:mx-20 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
             <Navbar />
-            <div className="mx-6 md:mx-10 lg:mx-16 xl:mx-20 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto overflow-hidden">
-                {children}
-                <Footer />
-            </div>
-        </>
+            {children}
+
+        </div>
     );
 }
 

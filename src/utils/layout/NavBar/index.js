@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { navSectionData } from "../../Data";
+import { navData } from "../../staticData";
 import Bars from '@iconscout/react-unicons/icons/uil-bars';
 import Cross from '@iconscout/react-unicons/icons/uil-times';
 // import { Link } from "react-scroll";
@@ -22,7 +22,7 @@ const Navbar = () => {
         let scrollElement = document.getElementById("Home");
         scrollElement.scrollIntoView({ behavior: 'smooth' });
     }
-    const data = navSectionData.map((item, index) => {
+    const data = navData.map((item, index) => {
 
         return (
             <li key={item.id} className={`hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-secondaryColor hover:cursor-pointer ${color === index ? 'text-secondaryColor' : 'text-primaryColor'} `} onClick={() => handleScroll(index, item)}>
@@ -32,7 +32,7 @@ const Navbar = () => {
         );
     })
     return (
-        <nav className="sticky top-0 w-full h-20 lg:py-0 bg-navBackgroundColor flex justify-between items-center my-0 z-20 px-6 sm:px-10 md:px-10 lg:px-16 xl:px-20 2xl:p-0 2xl:max-w-[1200px] 2xl:my-0 2xl:mx-auto">
+        <nav className="sticky top-0 h-20 lg:py-0 bg-navBackgroundColor flex justify-between items-center my-0 z-20">
             <div className="lg:flex lg:flex-row justify-center items-center flex-col ">
                 <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase cursor-pointer" onClick={handleStart}>Clark</span>
                 {click &&

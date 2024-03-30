@@ -11,6 +11,21 @@ module.exports = {
       '2xl': '1270px',
     },
     extend: {
+      colors: {
+        'primaryColor': primaryColor,
+        'secondaryColor': secondaryColor,
+        'grayColor': grayColor,
+        'transparentColor': transparentColor,
+        'ringColor': ringColor,
+        'semiTransparent': semiTransparent,
+        'blackColor': blackColor,
+        'backgroundColor': backgroundColor,
+        'divColor': divColor,
+        'grayShade400': grayShade400,
+        'formBackground': formBackground,
+        'slate-500': 'rgb(203 213 225)',
+        'navBackgroundColor': navBackgroundColor,
+      },
       backgroundImage: {
         'background-image': "url('./assets/images/bg_2.png')",
         'hireme': "url('./assets/images/hire_me.jpg')",
@@ -34,30 +49,13 @@ module.exports = {
         '5/14': '97%',
         '5/15': '96%',
         '1/4': '30%',
-        '1/11': '91%'
+        '1/11': '99%'
 
       },
       height: {
         '120': '33rem',
       }
     },
-    colors: {
-      'primaryColor': primaryColor,
-      'secondaryColor': secondaryColor,
-      'grayColor': grayColor,
-      'transparentColor': transparentColor,
-      'ringColor': ringColor,
-      'semiTransparent': semiTransparent,
-      'blackColor': blackColor,
-      'backgroundColor': backgroundColor,
-      'divColor': divColor,
-      'grayShade400': grayShade400,
-      'formBackground': formBackground,
-      'slate-500': 'rgb(203 213 225)',
-      'navBackgroundColor': navBackgroundColor,
-    }
-
-
   },
   plugins: [],
 }
