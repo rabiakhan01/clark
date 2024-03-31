@@ -6,12 +6,12 @@ const About = () => {
     const data = aboutData.map((items) => {
 
         return (
-            <div className="flex gap-x-[12vw] sm:gap-x-16 font-light">
+            <div className="flex gap-x-[14vw] sm:gap-x-16 font-light">
                 <div className="w-12 text-nowrap text-primaryColor font-medium ">
-                    <p className="text-[3vw] sm:text-base">{items.heading}</p>
+                    <p className="text-xs sm:text-base">{items.heading}</p>
                 </div>
                 <div className="text-grayColor text-wrap">
-                    <p className="text-[3vw] sm:text-base">{items.para}</p>
+                    <p className="text-xs sm:text-base">{items.para}</p>
                 </div>
             </div>
         );
@@ -24,7 +24,7 @@ const About = () => {
             <div className="relative flex w-full md:w-4/5 lg:w-3/7  flex-col md:justify-start md:items-start justify-center items-center  text-primaryColor ">
                 <h1 className="text-[6.5vw] sm:text-[5.6vw] md:text-4xl font-bold pb-10 lg:pb-14">About Me</h1>
                 <p className="text-[8.5vw] sm:text-[6.6vw] md:text-5xl  text-semiTransparent font-extrabold absolute top-2">About</p>
-                <p className="text-[3vw] sm:text-base font-light  text-grayColor pb-6 md:text-start text-center w-full">
+                <p className="text-sm sm:text-base font-light  text-grayColor pb-6 md:text-start text-center w-full">
                     A small river named Duden flows by their place and supplies it with the necessary regelialia.
                 </p>
                 <div>
