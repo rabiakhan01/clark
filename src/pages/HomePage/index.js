@@ -7,6 +7,7 @@ import Skills from "../../components/Home/skills";
 import Blog from "../../components/Home/blog";
 import Projects from "../../components/Home/projects";
 import HireMe from "../../components/Home/hireme";
+import Resume from "../../components/Home/resume";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <>
             <Intro />
             <About />
+            <Resume />
             <Services />
             <Skills />
             <Blog />

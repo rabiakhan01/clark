@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import { primaryColor, secondaryColor, grayColor, transparentColor, ringColor, semiTransparent, blackColor, backgroundColor, divColor, grayShade400, formBackground, navBackgroundColor } from './src/utils/styles/color';
 module.exports = {
+
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
@@ -42,10 +43,11 @@ module.exports = {
         '57': '51%',
         '120': '22.7rem',
         '3/12': '22%',
-        '3/13': '32.2%',
+        '3/7': '65%',
+        //'3/13': '32.2%',
         '5/12': '40%',
-        '5/16': '44.5%',
-        '5/13': '45.5%',
+        '5/16': '48%',
+        '5/13': '80%',
         '5/14': '97%',
         '5/15': '96%',
         '1/4': '30%',

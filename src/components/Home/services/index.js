@@ -4,24 +4,26 @@ import { servicesData } from "../../../utils/staticData";
 
 const Services = () => {
     return (
-        <div className="pt-28" id="Services">
+        <div className=" pt-16 sm:pt-20 md:pt-28" id="Services">
             <CommonSection
                 heading="Services"
                 description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
             />
-            {
-                servicesData.map((item) => {
-                    return (
-                        <div className="flex flex-wrap w-full md:gap-8 lg:gap-3  justify-center items-center">
+            <div className="flex flex-wrap w-full gap-4 lg:gap-6  justify-center items-center">
+                {
+                    servicesData.map((item) => {
+                        return (
+
                             <ServiceCard
                                 icon={item.icon}
                                 white_icon={item.white_icon}
                                 desc={item.content}
                             />
-                        </div>
-                    );
-                })
-            }
+
+                        );
+                    })
+                }
+            </div>
         </div>
     );
 }

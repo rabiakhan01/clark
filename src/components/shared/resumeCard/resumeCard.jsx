@@ -5,15 +5,15 @@ const ResumeCard = ({
     date,
     degree,
     institute,
-    description
+    desc
 }) => {
 
     return (
-        <div className="flex flex-col text-primaryColor w-5/15 h-auto md:w-1/11 lg:w-5/14 lg md:h-full xl:h-auto bg-semiTransparent p-8 gap-y-4 rounded-sm">
-            <p className="text-secondaryColor text-2xl sm:text-3xl  font-bold">{date}</p>
-            <p className="text-xl sm:text-2xl font-medium">{degree}</p>
-            <p className="text-xs font-light">{institute}</p>
-            <p className="text-grayColor text-sm sm:text-base font-light pt-4 ">{description}</p>
+        <div className="flex flex-col text-primaryColor w-96 h-auto md:w-5/16 lg:w-96 lg md:h-full xl:h-auto bg-semiTransparent px-6 py-8 sm:p-8 gap-y-2 rounded-sm">
+            <p className="text-secondaryColor text-[3.9vw] sm:text-[3vw] md:text-xl  font-bold">{date}</p>
+            <p className="text-[3.6vw] sm:text-base md:text-lg font-medium">{degree}</p>
+            <p className="text-[2.5vw] sm:text-xs font-light">{institute}</p>
+            <p className="text-grayColor text-xs sm:text-sm md:text-base font-light ">{desc}</p>
         </div>
     );
 }
