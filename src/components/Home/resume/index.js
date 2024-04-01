@@ -15,7 +15,7 @@ const Resume = () => {
                         return (
 
                             <ResumeCard
-                                id={item.id}
+                                key={item.id}
                                 date={item.date}
                                 degree={item.degree}
                                 institute={item.institute}
@@ -29,8 +29,8 @@ const Resume = () => {
             <div className="text-blackColor mt-8 sm:mt-20">
                 <Button
                     name="Download cv"
-                    bgColor="secondaryColor"
-                    ringColor="secondaryColor"
+                    bgColor={true}
+                    textColor={true}
                 />
             </div>
         </div>

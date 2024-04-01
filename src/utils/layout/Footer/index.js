@@ -20,7 +20,7 @@ const Footer = () => {
                         }
                     </div>
                 </div>
-                <div className="flex md:flex-row flex-col w-full">
+                <div className="flex md:flex-row flex-col w-full xl:ml-20">
                     {
                         footerData.map((item) => {
                             return (

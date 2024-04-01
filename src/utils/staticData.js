@@ -48,26 +48,32 @@ const navData = [
 // Data for about section
 const aboutData = [
     {
+        id: 1,
         heading: 'Name',
         para: 'Clark Thompson',
     },
     {
+        id: 2,
         heading: 'Date of birth',
         para: 'January 01, 1987',
     },
     {
+        id: 3,
         heading: 'Address',
         para: 'San Francisco CA 97987 USA',
     },
     {
+        id: 4,
         heading: 'Zip code',
         para: '1000',
     },
     {
+        id: 5,
         heading: 'Email',
         para: 'clarkthomp@gmail.com',
     },
     {
+        id: 6,
         heading: 'Phone',
         para: '+1-2234-5678-0-0',
     },
@@ -124,31 +130,37 @@ const resumeData = [
 // Data for services section
 const servicesData = [
     {
+        id: 1,
         icon: images.analysis_orange,
         white_icon: images.analysis,
         content: 'web design'
     },
     {
+        id: 2,
         icon: images.flasks_orange,
         white_icon: images.flasks,
         content: 'photography'
     },
     {
+        id: 3,
         icon: images.ideas_orange,
         white_icon: images.ideas,
         content: 'web developer'
     },
     {
+        id: 4,
         icon: images.analysis_orange,
         white_icon: images.analysis,
         content: 'app developing'
     },
     {
+        id: 5,
         icon: images.flasks_orange,
         white_icon: images.flasks,
         content: 'branding'
     },
     {
+        id: 6,
         icon: images.ideas_orange,
         white_icon: images.ideas,
         content: 'project strategy'

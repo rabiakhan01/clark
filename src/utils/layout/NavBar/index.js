@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className="lg:flex lg:flex-row justify-center items-center flex-col ">
                 <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase cursor-pointer" onClick={handleStart}>Clark</span>
                 {click &&
-                    <div className="lg:hidden absolute bg-backgroundColor w-full">
+                    <div className="lg:hidden absolute bg-backgroundColor w-full pb-5">
                         <ul className=" text-primaryColor font-light text-base flex flex-col gap-4 lg:pt-0 pt-10 cursor-pointer">
                             {data}
                         </ul>

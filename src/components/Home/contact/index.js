@@ -37,9 +37,8 @@ export default function Contact() {
                         <textarea placeholder="Message" name="message" className="w-5/6 h-32 resize-none border border-slate-500 focus:outline indent-4 rounded-md pt-4" />
                         <Button
                             name="send message"
-                            bgColor="secondaryColor"
-                            textColor="blackColor"
-                            ringColor="secondaryColor"
+                            bgColor={true}
+                            textColor={true}
                         />
                     </form>
                 </div>

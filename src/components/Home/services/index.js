@@ -15,6 +15,7 @@ const Services = () => {
                         return (
 
                             <ServiceCard
+                                key={item.id}
                                 icon={item.icon}
                                 white_icon={item.white_icon}
                                 desc={item.content}

@@ -5,7 +5,7 @@ const Button = ({ name, bgColor, textColor, ringColor }) => {
 
     return (
         <React.Fragment>
-            <button className={`px-[4vw] sm:px-5  py-[4vw] sm:py-3 uppercase rounded-full text-xs text-nowrap hover:cursor-pointer font-semibold tracking-widest bg-${bgColor ? bgColor : 'blackColor'} text-${textColor ? textColor : 'primaryColor'} ring-1 ring-${ringColor ? ringColor : 'primaryColor'}`} >{name}</button>
+            <button className={`px-[4vw] sm:px-5  py-[4vw] sm:py-3 uppercase rounded-full text-xs text-nowrap hover:cursor-pointer font-semibold tracking-widest ${bgColor ? 'bg-secondaryColor' : 'bg-backgroundColor'} ${textColor ? 'text-blackColor' : 'text-primaryColor'} ring-1 ${ringColor ? 'ring-primaryColor' : 'ring-secondaryColor'}`} >{name}</button>
         </React.Fragment>
     );
 }

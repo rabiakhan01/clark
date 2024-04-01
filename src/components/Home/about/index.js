@@ -3,15 +3,15 @@ import images from "../../../assets/images/images";
 import { Button } from "../../shared";
 import { aboutData } from "../../../utils/staticData";
 const About = () => {
-    const data = aboutData.map((items) => {
+    const data = aboutData.map((item) => {
 
         return (
-            <div className="flex gap-x-[14vw] sm:gap-x-16 font-light">
+            <div className="flex gap-x-[14vw] sm:gap-x-16 font-light" key={item.id}>
                 <div className="w-12 text-nowrap text-primaryColor font-medium ">
-                    <p className="text-xs sm:text-base">{items.heading}</p>
+                    <p className="text-xs sm:text-base">{item.heading}</p>
                 </div>
                 <div className="text-grayColor text-wrap">
-                    <p className="text-xs sm:text-base">{items.para}</p>
+                    <p className="text-xs sm:text-base">{item.para}</p>
                 </div>
             </div>
         );
@@ -37,9 +37,8 @@ const About = () => {
                 <div className=" flex md:justify-start md:items-start justify-center items-center">
                     <Button
                         name="Download cv"
-                        bgColor="secondaryColor"
-                        ringColor="secondaryColor"
-                        textColor="blackColor"
+                        bgColor={true}
+                        textColor={true}
                     />
                 </div>
 

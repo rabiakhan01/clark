@@ -1,14 +1,13 @@
 import React from "react";
-import Intro from '../../components/Home/intro'
-import Contact from "../../components/Home/contact";
-import About from "../../components/Home/about";
-import Services from "../../components/Home/services";
-import Skills from "../../components/Home/skills";
-import Blog from "../../components/Home/blog";
-import Projects from "../../components/Home/projects";
-import HireMe from "../../components/Home/hireme";
-import Resume from "../../components/Home/resume";
-
+import Intro from '../../components/home/intro'
+import Contact from "../../components/home/contact";
+import About from "../../components/home/about";
+import Services from "../../components/home/services";
+import Skills from "../../components/home/skills";
+import Blog from "../../components/home/blog";
+import Projects from "../../components/home/projects";
+import HireMe from "../../components/home/hireme";
+import Resume from "../../components/home/resume";
 
 const Home = () => {
     return (
