@@ -10,6 +10,7 @@ export default function HireMe() {
                     hiremeData.map((item) => {
                         return (
                             <HiremeCard
+                                key={item.id}
                                 count={item.count}
                                 content={item.content}
                             />

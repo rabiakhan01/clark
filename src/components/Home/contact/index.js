@@ -16,6 +16,7 @@ export default function Contact() {
                         return (
 
                             <ContactCard
+                                key={item.id}
                                 content={item.content}
                                 icon={item.icon}
                                 name={item.name}

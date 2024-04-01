@@ -13,6 +13,7 @@ const Footer = () => {
                             footerLeftIcons.map((item) => {
                                 return (
                                     <FooterLeftSection
+                                        key={item.id}
                                         icon={item.icon}
                                     />
                                 )
@@ -25,6 +26,7 @@ const Footer = () => {
                         footerData.map((item) => {
                             return (
                                 <FooterMiddleSection
+                                    key={item.id}
                                     arrow={item.arrow}
                                     element1={item.element1}
                                     element2={item.element2}
@@ -44,6 +46,7 @@ const Footer = () => {
                             footerRightIcons.map((item) => {
                                 return (
                                     <FooterRightSection
+                                        key={item.id}
                                         icon={item.icon}
                                         text={item.text}
                                     />

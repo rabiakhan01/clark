@@ -14,6 +14,7 @@ export default function Blog() {
                         return (
 
                             <BlogCard
+                                key={item.id}
                                 blogImage={item.blogImage}
                                 icon={item.icon}
                                 date={item.date}

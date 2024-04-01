@@ -214,29 +214,33 @@ const projectData = [
 ];
 
 //Data for hireMe section
-const hiremeData
-    = [
-        {
-            count: '100',
-            content: 'Awards',
-        },
-        {
-            count: '12,00',
-            content: 'Complete Projects',
-        },
-        {
-            count: '12,00',
-            content: 'Happy Customer',
-        },
-        {
-            count: '500',
-            content: 'Cups of coffee',
-        }
-    ];
+const hiremeData = [
+    {
+        id: 1,
+        count: '100',
+        content: 'Awards',
+    },
+    {
+        id: 2,
+        count: '12,00',
+        content: 'Complete Projects',
+    },
+    {
+        id: 3,
+        count: '12,00',
+        content: 'Happy Customer',
+    },
+    {
+        id: 4,
+        count: '500',
+        content: 'Cups of coffee',
+    }
+];
 
 //Data for blog section
 const blogData = [
     {
+        id: 1,
         date: "june 21, 2019",
         designation: "admin",
         icon: images.chat,
@@ -247,6 +251,7 @@ const blogData = [
 
     },
     {
+        id: 2,
         date: "june 21, 2019",
         designation: "admin",
         icon: images.chat,
@@ -257,6 +262,7 @@ const blogData = [
 
     },
     {
+        id: 3,
         date: "june 21, 2019",
         designation: "admin",
         icon: images.chat,
@@ -271,21 +277,25 @@ const blogData = [
 //Data for contact section
 const contactData = [
     {
+        id: 1,
         icon: images.address,
         name: 'address',
         content: '198 West 21th Street, Suite 721 New York NY 10016',
     },
     {
+        id: 2,
         icon: images.call,
         name: 'contact number',
         content: '+ 1235 2355 98',
     },
     {
+        id: 3,
         icon: images.send,
         name: 'email address',
         content: 'info@yoursite.com',
     },
     {
+        id: 4,
         icon: images.globe,
         name: 'website',
         content: 'yoursite.com',
@@ -335,14 +345,17 @@ const footerLeftIcons = [
 
 const footerRightIcons = [
     {
+        id: 1,
         icon: images.location,
         text: '203 Fake St. Mountain View, San Francisco, California, USA',
     },
     {
+        id: 2,
         icon: images.phone,
         text: '+2 392 3929 210',
     },
     {
+        id: 3,
         icon: images.email,
         text: 'info@yourdomain.com',
     },
