@@ -32,7 +32,7 @@ const Navbar = () => {
         );
     })
     return (
-        <nav className="sticky top-0 h-20 lg:py-0 bg-navBackgroundColor flex justify-between items-center my-0 z-20">
+        <nav className="sticky top-0 h-16 md:h-20 lg:py-0 bg-navBackgroundColor flex justify-between items-center my-0 z-20">
             <div className="lg:flex lg:flex-row justify-center items-center flex-col ">
                 <span className="text-primaryColor font-black text-xl 2xl:text-2xl uppercase cursor-pointer" onClick={handleStart}>Clark</span>
                 {click &&

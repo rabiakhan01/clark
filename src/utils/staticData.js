@@ -303,45 +303,38 @@ const footerData = [
         element5: "Grpahic Design",
         arrow: images.arrow,
     },
-    {
-        id: 3,
-        question: [
-            {
-                id: 1,
-                icon: images.location,
-                text: '203 Fake St. Mountain View, San Francisco, California, USA',
-            },
-            {
-                id: 2,
-                icon: images.phone,
-                text: '+2 392 3929 210',
-            },
-            {
-                id: 3,
-                icon: images.email,
-                text: 'info@yourdomain.com',
-            },
-        ]
-    },
-    {
-        id: 4,
-        miniData: [
-            {
-                id: 1,
-                icons: images.twitter,
-            },
-            {
-                id: 2,
-                icons: images.facebook,
-            },
-            {
-                id: 3,
-                icons: images.instra,
-            }
-        ]
-    }
+
 ];
 
+const footerLeftIcons = [
+    {
+        id: 1,
+        icon: images.twitter
+    },
+    {
+        id: 2,
+        icon: images.facebook
+    },
+    {
+        id: 3,
+        icon: images.instra
+    },
+]
+
+const footerRightIcons = [
+    {
+        icon: images.location,
+        text: '203 Fake St. Mountain View, San Francisco, California, USA',
+    },
+    {
+        icon: images.phone,
+        text: '+2 392 3929 210',
+    },
+    {
+        icon: images.email,
+        text: 'info@yourdomain.com',
+    },
+]
 
 
 export {
@@ -354,4 +347,6 @@ export {
     hiremeData,
     contactData,
     footerData,
+    footerLeftIcons,
+    footerRightIcons,
 }
