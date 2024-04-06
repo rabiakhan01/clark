@@ -1,13 +1,13 @@
-import './App.css';
 import './index.css';
-import HomePage from './pages';
+import HomePage from './pages/HomePage';
+import Layout from './utils/layout';
 function App() {
   return (
     <>
-    <HomePage />
+      <Layout>
+        <HomePage />
+      </Layout>
     </>
-    
-    
   );
 }
 
