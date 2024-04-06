@@ -12,7 +12,7 @@ const ResumeCard = ({
             <p className="text-secondaryColor text-[3.9vw] sm:text-[3vw] md:text-xl  font-bold">{date}</p>
             <p className="text-[3.6vw] sm:text-base md:text-lg font-medium">{degree}</p>
             <p className="text-[2.5vw] sm:text-xs font-light">{institute}</p>
-            <p className="text-grayColor text-sm md:text-base font-light ">{desc}</p>
+            <p className="text-grayColor text-xs sm:text-sm md:text-base font-light ">{desc}</p>
         </div>
     );
 }

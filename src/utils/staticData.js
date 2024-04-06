@@ -279,8 +279,9 @@ const contactData = [
     {
         id: 1,
         icon: images.address,
-        name: 'address',
-        content: '198 West 21th Street, Suite 721 New York NY 10016',
+        name: 'website',
+        content: 'yoursite.com',
+
     },
     {
         id: 2,
@@ -297,8 +298,8 @@ const contactData = [
     {
         id: 4,
         icon: images.globe,
-        name: 'website',
-        content: 'yoursite.com',
+        name: 'address',
+        content: '198 West 21th Street, Suite 721 New York NY 10016',
     },
 ];
 

@@ -5,12 +5,12 @@ import { contactData } from "../../../utils/staticData";
 
 export default function Contact() {
     return (
-        <div className="pt-16 sm:pt-20 md:pt-28" id="Contact">
+        <div className="flex flex-col justify-center items-center pt-16 sm:pt-20 md:pt-28" id="Contact">
             <CommonSection
                 heading="Contact"
                 description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
             />
-            <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-8 sm:gap-x-2 sm:gap-y-6 md:gap-x-0 md:gap-y-8 lg:gap-14 mb-14">
+            <div className="lg:w-11/12 flex flex-wrap justify-center items-center gap-x-6 gap-y-8 sm:gap-x-5 sm:gap-y-6 md:gap-x- md:gap-y-8 lg:gap-y-14 mb-14 ">
                 {
                     contactData.map((item) => {
                         return (
@@ -32,10 +32,10 @@ export default function Contact() {
                 </div>
                 <div className="flex justify-center items-center bg-formBackground w-full h-full md:pb-0 pb-6 md:pt-0 pt-6">
                     <form className="flex flex-col gap-6 justify-center items-center w-full">
-                        <input type="text" placeholder="Your Name" name="yourName" className="w-5/6 h-14 border border-slate-500 focus:outline indent-4 rounded-md" />
-                        <input type="email" placeholder="Your Email" name="yourEmail" className="w-5/6 h-14 border border-slate-500 focus:outline indent-4 rounded-md" />
-                        <input type="text" placeholder="Subject" name="yourSubject" className="w-5/6 h-14 border border-slate-500 focus:outline indent-4 rounded-md" />
-                        <textarea placeholder="Message" name="message" className="w-5/6 h-32 resize-none border border-slate-500 focus:outline indent-4 rounded-md pt-4" />
+                        <input type="text" placeholder="Your Name" name="yourName" className="w-5/6 h-12 sm:h-14 border border-slate-500 focus:outline indent-4 rounded-md placeholder:text-sm placeholder:md:text-base" />
+                        <input type="email" placeholder="Your Email" name="yourEmail" className="w-5/6 h-12 sm:h-14 border border-slate-500 focus:outline indent-4 rounded-md placeholder:text-sm placeholder:md:text-base" />
+                        <input type="text" placeholder="Subject" name="yourSubject" className="w-5/6 h-12 sm:h-14 border border-slate-500 focus:outline indent-4 rounded-md placeholder:text-sm placeholder:md:text-base" />
+                        <textarea placeholder="Message" name="message" className="w-5/6 h-32 resize-none border border-slate-500 focus:outline indent-4 rounded-md pt-4 placeholder:text-sm placeholder:md:text-base" />
                         <Button
                             name="send message"
                             bgColor={true}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, HiremeCard } from "../../shared";
+import { Button, HireMeCard } from "../../shared";
 import { hiremeData } from "../../../utils/staticData";
 
 export default function HireMe() {
@@ -9,7 +9,7 @@ export default function HireMe() {
                 {
                     hiremeData.map((item) => {
                         return (
-                            <HiremeCard
+                            <HireMeCard
                                 key={item.id}
                                 count={item.count}
                                 content={item.content}

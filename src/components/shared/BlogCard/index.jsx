@@ -25,7 +25,7 @@ export default function BlogCard({
                     </div>
                 </div>
                 <p className="text-primaryColor font-medium text-[3.6vw] sm:text-base xl:text-md mb-2">{heading}</p>
-                <p className="font-light text-sm md:text-base text-grayColor mb-2">{content}</p>
+                <p className="font-light text-xs sm:text-sm md:text-base text-grayColor mb-2">{content}</p>
             </div>
         </div>
     )
