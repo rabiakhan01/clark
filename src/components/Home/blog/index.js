@@ -6,7 +6,7 @@ export default function Blog() {
         <div className="pt-16 sm:pt-20 md:pt-28" id="Blog">
             <CommonSection
                 heading="Our Blog"
-                description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+                description="Far  far away, behind the word mountains, far from the countries Vokalia and Consonantia"
             />
             <div className="flex flex-wrap  justify-center items-center gap-8 md:gap-6 lg:gap-4">
                 {

@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="flex flex-col justify-center items-center pt-16 sm:pt-20 md:pt-28" id="Contact">
             <CommonSection
                 heading="Contact"
-                description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+                description="Far  far away, behind the word mountains, far from the countries Vokalia and Consonantia"
             />
             <div className="lg:w-11/12 flex flex-wrap justify-center items-center gap-x-6 gap-y-8 sm:gap-x-5 sm:gap-y-6 md:gap-x- md:gap-y-8 lg:gap-y-14 mb-14 ">
                 {

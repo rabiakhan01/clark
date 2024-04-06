@@ -25,7 +25,7 @@ const About = () => {
                 <h1 className="text-[6.5vw] sm:text-[5.6vw] md:text-4xl font-bold pb-10 lg:pb-14">About Me</h1>
                 <p className="text-[8.5vw] sm:text-[6.6vw] md:text-5xl  text-semiTransparent font-extrabold absolute top-2">About</p>
                 <p className="text-sm sm:text-base font-light  text-grayColor pb-6 md:text-start text-center w-full">
-                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                    A small  river named Duden flows by their place and supplies it with the necessary regelialia.
                 </p>
                 <div>
                     {data}
