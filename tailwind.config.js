@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-<<<<<<< HEAD
-import { white,orange,gray,transparent } from './src/utils/styles/color'
-=======
 import { primaryColor, secondaryColor, grayColor, transparentColor, ringColor, semiTransparent, blackColor, backgroundColor, divColor, grayShade400, formBackground, navBackgroundColor } from './src/utils/styles/color';
->>>>>>> intro
+
 module.exports = {
 
   content: ["./App.{js,jsx,ts,tsx}", "./src/**/*.{js,jsx,ts,tsx}"],

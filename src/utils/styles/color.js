@@ -1,18 +1,7 @@
-<<<<<<< HEAD
-const white = '#ffffff';
-const orange = '#ffbd39'
-const gray = 'rgba(255, 255, 255, 0.5)';
-const transparent = '#00000000';
-export {
-    white,
-    orange,
-    gray,
-    transparent,
 
-}
-=======
+const white = '#ffffff';
 const primaryColor = '#ffffff';
-const secondaryColor = '#ffbd39'
+const secondaryColor = '#ffbd39';
 const grayColor = 'rgba(255, 255, 255, 0.5)';
 const semiTransparent = 'rgba(255, 255, 255, 0.1)';
 const navBackgroundColor = 'rgba(12, 19, 23, 100)';
@@ -38,4 +27,4 @@ export {
     navBackgroundColor
 
 }
->>>>>>> intro
+
