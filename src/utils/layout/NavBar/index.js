@@ -6,7 +6,7 @@ import Cross from '@iconscout/react-unicons/icons/uil-times';
 // import { Link } from "react-scroll";
 
 
-const Navbar = () => {
+const NavBar = () => {
     const [click, setClick] = useState(false);
     const [color, setColor] = useState(null);
 
@@ -27,7 +27,6 @@ const Navbar = () => {
 
     const preventScroll = () => {
         document.body.classList.add('scroll-hidden');
-
     }
     const data = navData.map((item, index) => {
 
@@ -66,4 +65,4 @@ const Navbar = () => {
         </nav>
     );
 }
-export default Navbar;
+export default NavBar;

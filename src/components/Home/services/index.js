@@ -7,7 +7,7 @@ const Services = () => {
         <div className=" pt-16 sm:pt-20 md:pt-28" id="Services">
             <CommonSection
                 heading="Services"
-                description="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
+                description="Far far  away, behind the word mountains, far from the countries Vokalia and Consonantia"
             />
             <div className="flex flex-wrap w-full gap-4 lg:gap-6  justify-center items-center">
                 {
