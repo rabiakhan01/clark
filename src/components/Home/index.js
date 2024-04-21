@@ -1,0 +1,9 @@
+export { default as Intro } from "../Home/intro";
+export { default as About } from "../Home/about";
+export { default as Contact } from "../Home/contact";
+export { default as HireMe } from "../Home/hireme";
+export { default as Projects } from "../Home/projects";
+export { default as Resume } from "../Home/resume";
+export { default as Services } from "../Home/services";
+export { default as Skills } from "../Home/skills";
+export { default as Blog } from "../Home/blog";
