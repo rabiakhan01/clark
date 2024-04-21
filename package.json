@@ -12,6 +12,11 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "peerDependencies": {
+  "react": ">=15.0.0 <17.0.0",
+  "typescript": ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta",
+  "postcss": "^8.1.0"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "autoprefixer": "10.4.5",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.1",
