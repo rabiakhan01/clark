@@ -7,7 +7,7 @@ const Resume = () => {
         <div className="flex pt-16 sm:pt-20 md:pt-28 flex-col w-full justify-center items-center" id="Resume">
             <CommonSection
                 heading="Resume"
-                description="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                description="A small river  named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
             />
             <div className="flex flex-wrap w-full gap-4 md:gap-6  justify-center items-center">
                 {
